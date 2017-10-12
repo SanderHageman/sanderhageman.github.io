@@ -2,7 +2,7 @@
 layout: post
 title: "My First Post"
 date: 2017-10-12
-thumbnail: "/assets/second.jpg"
+thumbnail: "/assets/first.jpg"
 ---
 
 
