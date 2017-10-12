@@ -5,7 +5,7 @@ date: 2017-10-12
 thumbnail: "/assets/rias.jpg"
 ---
 
-{% include ytvideo.html id=SlPOuWNxR3o %}
+{% include ytvideo.html id="SlPOuWNxR3o" %}
 <a href="https://www.youtube.com/watch?v=SlPOuWNxR3o">[Link to trailer on Youtube]</a>
 
 Blabla Bieboe
