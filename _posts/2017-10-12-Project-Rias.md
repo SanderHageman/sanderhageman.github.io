@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Project Rias"
+title: "Project RIAS"
+subtitle: "Third person puzzle platformer made in Unity"
 date: 2017-10-12
 thumbnail: "/assets/rias.jpg"
 ---
 
 {% include ytvideo.html id="SlPOuWNxR3o" %}
-<a href="https://www.youtube.com/watch?v=SlPOuWNxR3o">[Link to trailer on Youtube]</a>
+<!-- <a href="https://www.youtube.com/watch?v=SlPOuWNxR3o">[Link to trailer on Youtube]</a> -->
 
-Blabla Bieboe
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+<h2>Description</h2>
+<p>In Project RIAS the player controls a scientist named Doctor Peters. Throughout the game the player has to find and master different 'powerups' that can be found to advance to the next level. The powerups differ from the ability to jump high up in the sky to running very fast.</p> 
