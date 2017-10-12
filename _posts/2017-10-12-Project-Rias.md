@@ -4,6 +4,7 @@ title: "Project RIAS"
 subtitle: "Third person puzzle platformer made in Unity"
 date: 2017-10-12
 thumbnail: "/assets/rias.jpg"
+achievement: true
 ---
 
 {% include ytvideo.html id="SlPOuWNxR3o" %}
