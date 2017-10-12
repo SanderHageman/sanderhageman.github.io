@@ -5,8 +5,6 @@ date: 2017-10-12
 thumbnail: "/assets/rias.jpg"
 ---
 
-<h1> Project Rias </h1>
-
 {% include ytvideo.html id=SlPOuWNxR3o %}
 <a href="https://www.youtube.com/watch?v=SlPOuWNxR3o">[Link to trailer on Youtube]</a>
 
