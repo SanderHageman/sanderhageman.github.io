@@ -2,7 +2,7 @@
 layout: post
 title: "Project Rias"
 date: 2017-10-12
-thumbnail: "/assets/first.jpg"
+thumbnail: "/assets/rias.jpg"
 ---
 
 <h1> Project Rias </h1>
