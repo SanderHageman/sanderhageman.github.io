@@ -7,7 +7,7 @@ title: Portfolio
 
   {% for post in site.posts %}
 
-	<li>
+	<li><p>
 		<a href="{{ post.url }}" title="{{ post.title }}">
 
 			<!-- {% if post.thumbnail %}
@@ -19,9 +19,9 @@ title: Portfolio
 			{{ post.title }}
 		</a>
 
-		{{ post.excerpt }}
+		<br>{{ post.excerpt }}
 
-	</li>
+	</p></li>
 
   {% endfor %}
 </ul>
