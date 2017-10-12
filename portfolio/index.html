@@ -11,9 +11,9 @@ title: Portfolio
 		<a href="{{ post.url }}" title="{{ post.title }}">
 
 			{% if post.thumbnail %}
-				![Post thumbnail]({{ post.thumbnail }})
+				<img src= {{post.thumbnail}} style="width:64;height:64;"> 
 			{% else %}
-				![No thumbnail Available!]({{ "/assets/defaultThumb.jpg" }})
+				<img src= "/assets/defaultThumb.jpg" style="width:64;height:64;"> 
 			{% endif %}
 
 			{{ post.title }}
