@@ -4,6 +4,7 @@ title: "Project RIAS"
 subtitle: "Third person puzzle platformer made in Unity"
 date: 2017-10-12
 thumbnail: "/assets/rias.jpg"
+excerpt_separator: <!--more-->
 achievement: true
 ---
 
@@ -12,3 +13,4 @@ achievement: true
 
 <h2>Description</h2>
 <p>In Project RIAS the player controls a scientist named Doctor Peters. Throughout the game the player has to find and master different 'powerups' that can be found to advance to the next level. The powerups differ from the ability to jump high up in the sky to running very fast.</p> 
+<!--more-->
