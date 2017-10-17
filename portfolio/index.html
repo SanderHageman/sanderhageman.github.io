@@ -20,7 +20,11 @@ title: Portfolio
 		</a>
 
 		<br>
-		{{ post.subtitle }}
+		{% if post.subtitle %}
+			{{ post.subtitle | remove: '<p>' | remove: '</p>}
+		{% else %}
+			{{ post.excerpt | strip_html | remove: '<p>' | remove: '</p> }
+		{% endif %}
 
 	</li>
 
