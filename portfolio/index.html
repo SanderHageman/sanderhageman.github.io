@@ -21,9 +21,9 @@ title: Portfolio
 
 		<br>
 		{% if post.subtitle %}
-			{{ post.subtitle | remove: '<p>' | remove: '</p>}
+			{{ post.subtitle | remove: '<p>' | remove: '</p>' }}
 		{% else %}
-			{{ post.excerpt | strip_html | remove: '<p>' | remove: '</p> }
+			{{ post.excerpt | strip_html | remove: '<p>' | remove: '</p>' }}
 		{% endif %}
 
 	</li>
