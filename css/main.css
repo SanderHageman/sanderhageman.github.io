@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 50%;
-    background-color: #212625; 
+    background-color: #B0C537; 
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -15,26 +15,25 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #F2F1DF;
+    color: #107896;
 }
 a:hover {
     text-decoration: underline;
-    color: #8B8C81;
 }
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #F2F1DF;
+    color: #373D3F;
 }
 h2 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #F2F1DF;
+    color: #373D3F;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #BFA288;
+    color: #373D3F;
 }
 footer {
     border-top: 1px solid #8B8C81;
