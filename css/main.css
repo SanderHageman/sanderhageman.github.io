@@ -4,17 +4,29 @@ body {
     margin: 60px auto;
     width: 35%;
     background-color: #F1F3F4; 
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    padding: 50px;
+    color: #373D3F;
 }
+
+
 nav ul, footer ul {
     font-family:'Open Sans', 'sans-serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
+
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
+
 a {
     text-decoration: none;
     color: #107896;
@@ -22,6 +34,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
 h1 {
     font-size: 3em;
     font-family:'Open Sans', 'sans-serif';
@@ -32,11 +46,15 @@ h2 {
     font-family:'Open Sans', 'sans-serif';
     color: #373D3F;
 }
+
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #373D3F;
 }
+
+
 footer {
     border-top: 1px solid #8B8C81;
     font-size: .8em;
