@@ -9,16 +9,17 @@ title: Sander Hageman; Portfolio website
 </div>
 
 <div class="BestAchievements">
-<ul class="posts">
 	<h2>This is where I'll list the projects that should be instantly seen:</h2>
 	
 	 {% for post in site.posts %}
 		{% if post.achievement == true %}
-			<li>			
+			<ul class="posts">
+			<li>		
 				<a href="{{ post.url }}" title="{{ post.title }}">
 					{{ post.title }}
 				</a>
 			</li>
+			</ul>
 		{% endif %}
 	{% endfor %}
 </ul>
