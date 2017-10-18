@@ -61,6 +61,11 @@ ul.posts {
     font-size: 1.3em;
 }
 
+ul.posts p {
+    font-size: 1.2em;
+    color: #373D3F;
+}
+
 ul.posts li {
     list-style: none;
 }
