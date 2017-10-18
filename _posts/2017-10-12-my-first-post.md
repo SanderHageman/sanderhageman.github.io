@@ -9,7 +9,7 @@ subtitle: "Testing subtitle and code snippet"
 
 First Post Test 2
 
-<div style="height:200px;border:1px;overflow:auto;">
+<div style="height:50em;border:1px;overflow:auto;">
 {% highlight cpp %}
 // ----------------------------
 // ----Internal Includes----
