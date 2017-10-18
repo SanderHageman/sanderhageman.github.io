@@ -9,7 +9,7 @@ subtitle: "Testing subtitle and code snippet"
 
 First Post Test 2
 
-
+<div style="height:200px;border:1px;">
 {% highlight cpp %}
 // ----------------------------
 // ----Internal Includes----
@@ -138,3 +138,4 @@ LRESULT CALLBACK SystemClass::MessageHandler(HWND hwnd, UINT umsg, WPARAM wparam
 	}
 }
 {% endhighlight %}
+</div>
