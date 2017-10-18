@@ -1,12 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 
-@media (max-width: 600px) {
-  #container {
-    width: 100%;
-    margin: 0;
-  }
-}
-
 body {
     margin: 60px auto;
     width: 35%;
@@ -14,6 +7,20 @@ body {
     
     font-family: 'Open Sans', sans-serif;
     color: #373D3F;
+}
+
+@media screen and (max-width: 1080px) {
+    body {
+        background-color: lightblue;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    body {
+        background-color: lightgreen;
+        width: 100%;
+    }
 }
 
 
