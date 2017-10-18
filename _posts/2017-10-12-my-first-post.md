@@ -7,10 +7,10 @@ subtitle: "Testing subtitle and code snippet"
 ---
 
 
-First Post Test
+First Post Test 2
 
 
-{% highlight cpp linenos %}
+{% highlight cpp %}
 // ----------------------------
 // ----Internal Includes----
 // ----------------------------
