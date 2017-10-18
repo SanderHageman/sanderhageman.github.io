@@ -19,7 +19,7 @@ body {
 @media screen and (max-width: 580px) {
     body {
         background-color: lightgreen;
-        width: 100%;
+        width: 95%;
     }
 }
 
