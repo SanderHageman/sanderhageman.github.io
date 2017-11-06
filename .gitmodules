@@ -1,0 +1,4 @@
+[submodule "lightslider"]
+	path = lightslider
+	url = https://github.com/sachinchoolur/lightslider.git
+	branch = master
