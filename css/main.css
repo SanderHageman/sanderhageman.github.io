@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 
 body {
@@ -86,7 +87,12 @@ ul.posts li {
 }
 
 .highlighter-rouge {
+    padding: 1em;
     max-height: 50em;
     border: 1px solid #107896;
     overflow: auto;
+}
+
+pre {
+    font-family: 'Inconsolata', monospace;
 }
