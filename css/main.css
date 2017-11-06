@@ -21,6 +21,7 @@ body {
         background-color: lightgreen;
         width: 95%;
     }
+
 }
 
 
@@ -82,4 +83,10 @@ ul.posts p {
 
 ul.posts li {
     list-style: none;
+}
+
+.highlighter-rouge {
+    max-height: 50em;
+    border: 1px solid #107896;
+    overflow: auto;
 }
