@@ -8,7 +8,6 @@ achievement: true
 ---
 
 {% include ytvideo.html id="SlPOuWNxR3o" %}
-<!-- <a href="https://www.youtube.com/watch?v=SlPOuWNxR3o">[Link to trailer on Youtube]</a> -->
 
 ## Description
 
