@@ -2,7 +2,6 @@
 layout: iframe
 title: My slideshow
 gallery: true
-thumbItem: 2
 item: 2
 auto: false
 loop: true
