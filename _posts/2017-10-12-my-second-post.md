@@ -9,4 +9,8 @@ Second Post Test123
 <br>
 ![My helpful screenshot]({{ "/assets/defaultThumb.jpg" | absolute_url }})
 
-<iframe class="slideshow-iframe" src="{{ site.github.url }}/slides/my-pics1.html"></iframe>
+<section class="main-slides">
+  <article class="slide">
+    <iframe class="slideshow-iframe" src="{{ site.github.url }}/slides/my-pics1.html"></iframe>
+  </article>
+</section>
