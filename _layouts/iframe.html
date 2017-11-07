@@ -7,10 +7,9 @@
 <body>
 {{ content }}
 <script type="text/javascript"> 
-    $(document).ready(function() {
-      $("ul").lightGallery({
+    lightGallery(document.getElementById('ul'), {
         download: false
-    })});
+    });
 </script>
 </body>
 </html>
