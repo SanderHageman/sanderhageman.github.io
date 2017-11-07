@@ -14,7 +14,7 @@
 {{ content }}
 <script type="text/javascript"> 
     $(document).ready(function() {
-      $("#responsive").lightSlider({
+      $("ul").lightSlider({
         "item": {{ page.item | default: 1 }},                               
         "slideMove": "{{ page.slideMove | default: 1 }}",
         "loop": {{ page.loop | default: false }},
