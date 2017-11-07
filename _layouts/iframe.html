@@ -1,35 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link type="text/css" rel="stylesheet" href="{{ site.github.url }}/lightslider/dist/css/lightslider.css" />
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="{{ site.github.url }}/lightslider/dist/js/lightslider.js"></script>
+  <link type="text/css" rel="stylesheet" href="{{ site.github.url }}/lightgallery.js/dist/css/lightgallery.css"/>
+  <script src="{{ site.github.url }}/lightgallery.js/dist/js/lightgallery.min.js"></script>
 </head>
-    <style>
-    img {
-      min-width: 100%
-    }
-  </style>
 <body>
 {{ content }}
 <script type="text/javascript"> 
-    $(document).ready(function() {
-      $("ul").lightSlider({
-        "item": {{ page.item | default: 1 }},                               
-        "slideMove": "{{ page.slideMove | default: 1 }}",
-        "loop": {{ page.loop | default: false }},
-        "mode": "{{ page.mode | default: slide }}",
-        "speed": {{ page.speed | default: 600 }},
-        "pause": {{ page.pause | default: 2000 }},
-        "vertical": {{ page.vertical | default: false }},
-        "auto": {{ page.auto | default: false }},
-        "pauseOnHover": {{ page.pauseOnHover | default: false }},
-        "pager": {{ page.pager | default: true }},
-        "controls": {{ page.cotrols | default: true }},
-        "adaptiveHeight": {{ page.adaptiveHeight | default: false }},
-        "gallery": "{{ page.gallery | default: true }}"
-      });
-    });
+    lightGallery(document.getElementById('lightgallery'));
 </script>
 </body>
 </html>
