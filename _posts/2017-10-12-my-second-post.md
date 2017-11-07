@@ -10,6 +10,6 @@ Second Post Test123
 ![My helpful screenshot]({{ "/assets/defaultThumb.jpg" | absolute_url }})
 <br>
   {% for slide in site.slides %}
-  slide.path
+  {{ slide.path }}
   {% endfor %}
 {% include slides.html slide="my-pics1" %}
