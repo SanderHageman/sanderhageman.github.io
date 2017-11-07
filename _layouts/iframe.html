@@ -28,27 +28,6 @@
         "adaptiveHeight": {{ page.adaptiveHeight | default: false }}
       });
     });
-    {% for elem in page.style %}
-      function startAnim_{{ elem[0] }}() {
-        $("{{ elem[0] }}")
-        {% for style in elem[1].init %}
-          .css("{{ style[0] }}", "{{ style[1] }}")
-        {% endfor %}
-        {% if elem[1].to && elem[1].from %}
-          .animate({
-            {% for style in elem[1].to %}
-              "{{ style[0] }}": "{{ style[1] }}",
-            {% endfor %}
-            }, {{ elem[1].duration | default: 2000 }})
-          .animate({
-            {% for style in elem[1].from %}
-              "{{ style[0] }}": "{{ style[1] }}",
-            {% endfor %}
-            }, {{ elem[1].duration | default: 2000 }}, startAnim_{{ elem[0] }})
-        {% endif %}
-      }
-      startAnim_{{ elem[0] }}();
-    {% endfor %}
 </script>
 </body>
 </html>
