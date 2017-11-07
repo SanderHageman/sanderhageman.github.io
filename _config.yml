@@ -1,14 +1,5 @@
 name: Sander Hageman
 permalink: "/:title"
-
-scope:
-    path: "_slides"
-values:
-    layout: "iframe"
-collections:
-    slides:
-        output: true
-
 highlighter: rouge
 markdown: kramdown
 kramdown:
@@ -16,3 +7,14 @@ kramdown:
     syntax_highlighter: rouge
     auto_ids: true
     hard_wrap: false
+    
+defaults:
+  -
+    scope:
+      path: "_slides" 
+    values:
+      layout: "iframe"
+
+collections:
+  slides:
+    output: true
