@@ -2,10 +2,10 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-    margin: 60px auto;
+    margin: 1em auto;
     width: 45%;
     background-color: #F1F3F4; 
-    
+  
     font-family: 'Open Sans', sans-serif;
     color: #373D3F;
 }
@@ -28,7 +28,7 @@ body {
 
 nav ul, footer ul {
     font-family:'Open Sans', 'sans-serif';
-    padding: 0px;
+    padding: 0em;
     list-style: none;
     font-weight: bold;
 }
@@ -36,7 +36,7 @@ nav ul, footer ul {
 
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 1em;
 }
 
 
@@ -53,6 +53,7 @@ h1 {
     font-size: 3em;
     font-family:'Open Sans', 'sans-serif';
     color: #373D3F;
+    padding: 0.3em;
 }
 h2 {
     font-size: 2em;
@@ -62,12 +63,15 @@ h2 {
 
 
 p {
+    padding-bottom: 1em;
     font-size: 1.2em;
     color: #373D3F;
 }
 
 
 footer {
+    margin-top: 1em;
+    padding-top: 1em;
     border-top: 1px solid #8B8C81;
     font-size: .8em;
 }
