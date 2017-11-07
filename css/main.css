@@ -53,7 +53,8 @@ h1 {
     font-size: 3em;
     font-family:'Open Sans', 'sans-serif';
     color: #373D3F;
-    padding: 0.3em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
 }
 h2 {
     font-size: 2em;
@@ -63,7 +64,7 @@ h2 {
 
 
 p {
-    padding-bottom: 1em;
+    margin: 0.2em auto;
     font-size: 1.2em;
     color: #373D3F;
 }
