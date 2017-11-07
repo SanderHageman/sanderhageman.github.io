@@ -6,6 +6,7 @@ thumbItem: 2
 item: 2
 auto: false
 loop: true
+adaptiveHeight: true
 ---
 
 * ![A nice pic of mine](my-pics1/pic1.jpg)
