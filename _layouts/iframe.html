@@ -5,13 +5,11 @@
   <script src="{{ site.github.url }}/lightgallery.js/dist/js/lightgallery.min.js"></script>
 </head>
 <body>
-  <ul id="ul-li">
 {{ content }}
-    
-  </ul>
 <script type="text/javascript"> 
-    lightGallery(document.getElementById('ul-li'), {
-      selector: 'this'
+    $(document).ready(function() {
+      $("ul-li").lightGallery({
+        download: false
     });
 </script>
 </body>
