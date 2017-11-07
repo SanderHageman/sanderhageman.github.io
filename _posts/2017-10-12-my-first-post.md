@@ -8,7 +8,7 @@ subtitle: "Testing subtitle and code snippet"
 
 
 First Post Test 3
-
+{% highlight cpp %}
 ```cpp
 // ----------------------------
 // ----Internal Includes----
@@ -137,3 +137,4 @@ LRESULT CALLBACK SystemClass::MessageHandler(HWND hwnd, UINT umsg, WPARAM wparam
 	}
 }
 ```
+{% endhighlight %}
