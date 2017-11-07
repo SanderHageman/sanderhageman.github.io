@@ -1,33 +1,209 @@
-.highlight .hll { background-color: #ffffcc }
-.highlight .c { color: #008000 } /* Comment */
-.highlight .err { border: 1px solid #FF0000 } /* Error */
-.highlight .k { color: #0000ff } /* Keyword */
-.highlight .cm { color: #008000 } /* Comment.Multiline */
-.highlight .cp { color: #0000ff } /* Comment.Preproc */
-.highlight .c1 { color: #008000 } /* Comment.Single */
-.highlight .cs { color: #008000 } /* Comment.Special */
-.highlight .ge { font-style: italic } /* Generic.Emph */
-.highlight .gh { font-weight: bold } /* Generic.Heading */
-.highlight .gp { font-weight: bold } /* Generic.Prompt */
-.highlight .gs { font-weight: bold } /* Generic.Strong */
-.highlight .gu { font-weight: bold } /* Generic.Subheading */
-.highlight .kc { color: #0000ff } /* Keyword.Constant */
-.highlight .kd { color: #0000ff } /* Keyword.Declaration */
-.highlight .kn { color: #0000ff } /* Keyword.Namespace */
-.highlight .kp { color: #0000ff } /* Keyword.Pseudo */
-.highlight .kr { color: #0000ff } /* Keyword.Reserved */
-.highlight .kt { color: #2b91af } /* Keyword.Type */
-.highlight .s { color: #a31515 } /* Literal.String */
-.highlight .nc { color: #2b91af } /* Name.Class */
-.highlight .ow { color: #0000ff } /* Operator.Word */
-.highlight .sb { color: #a31515 } /* Literal.String.Backtick */
-.highlight .sc { color: #a31515 } /* Literal.String.Char */
-.highlight .sd { color: #a31515 } /* Literal.String.Doc */
-.highlight .s2 { color: #a31515 } /* Literal.String.Double */
-.highlight .se { color: #a31515 } /* Literal.String.Escape */
-.highlight .sh { color: #a31515 } /* Literal.String.Heredoc */
-.highlight .si { color: #a31515 } /* Literal.String.Interpol */
-.highlight .sx { color: #a31515 } /* Literal.String.Other */
-.highlight .sr { color: #a31515 } /* Literal.String.Regex */
-.highlight .s1 { color: #a31515 } /* Literal.String.Single */
-.highlight .ss { color: #a31515 } /* Literal.String.Symbol */
+.highlight code, .highlight pre{color:#fdce93;background-color:#2C2C2C}
+.highlight .hll{background-color:#222}
+.highlight .c{color:#7A987A}
+.highlight .err{color:#e37170;background-color:#3d3535}
+.highlight .g{color:#7f9f7f}
+.highlight .k{color:#EFC986}
+.highlight .l{color:#ccc}
+.highlight .n{color:#dcdccc}
+.highlight .o{color:#f0efd0}
+.highlight .x{color:#ccc}
+.highlight .p{color:#f0efd0}
+.highlight .cm{color:#7A987A}
+.highlight .cp{color:#7A987A}
+.highlight .c1{color:#7A987A}
+.highlight .cs{color:#cd0000;font-weight:bold}
+.highlight .gd{color:#cd0000}
+.highlight .ge{color:#ccc;font-style:italic}
+.highlight .gr{color:red}
+.highlight .gh{color:#dcdccc;font-weight:bold}
+.highlight .gi{color:#00cd00}
+.highlight .go{color:gray}
+.highlight .gp{color:#dcdccc;font-weight:bold}
+.highlight .gs{color:#ccc;font-weight:bold}
+.highlight .gu{color:purple;font-weight:bold}
+.highlight .gt{color:#0040D0}
+.highlight .kc{color:#dca3a3}
+.highlight .kd{color:#ffff86}
+.highlight .kn{color:#dfaf8f;font-weight:bold}
+.highlight .kp{color:#EFC986}
+.highlight .kr{color:#EFC986}
+.highlight .kt{color:#EFC986}
+.highlight .ld{color:#cc9393}
+.highlight .m{color:#6E96BE}
+.highlight .s{color:#cc9393}
+.highlight .na{color:#9ac39f}
+.highlight .nb{color:#efef8f}
+.highlight .nc{color:#efef8f}
+.highlight .no{color:#ccc}
+.highlight .nd{color:#ccc}
+.highlight .ni{color:#c28182}
+.highlight .ne{color:#c3bf9f;font-weight:bold}
+.highlight .nf{color:#efef8f}
+.highlight .nl{color:#ccc}
+.highlight .nn{color:#8fbede}
+.highlight .nx{color:#ccc}
+.highlight .py{color:#ccc}
+.highlight .nt{color:#9ac39f}
+.highlight .nv{color:#dcdccc}
+.highlight .ow{color:#f0efd0}
+.highlight .w{color:#ccc}
+.highlight .mf{color:#6E96BE}
+.highlight .mh{color:#6E96BE}
+.highlight .mi{color:#6E96BE}
+.highlight .mo{color:#6E96BE}
+.highlight .sb{color:#cc9393}
+.highlight .sc{color:#cc9393}
+.highlight .sd{color:#cc9393}
+.highlight .s2{color:#cc9393}
+.highlight .se{color:#cc9393}
+.highlight .sh{color:#cc9393}
+.highlight .si{color:#cc9393}
+.highlight .sx{color:#cc9393}
+.highlight .sr{color:#cc9393}
+.highlight .s1{color:#cc9393}
+.highlight .ss{color:#cc9393}
+.highlight .bp{color:#efef8f}
+.highlight .vc{color:#efef8f}
+.highlight .vg{color:#dcdccc}
+.highlight .vi{color:#ffffc7}
+.highlight .il{color:#8cd0d3}
+
+.css .o,
+.css .o + .nt,
+.css .nt + .nt { color: #999; }
+
+/* Reducing padding of code blocks generally, allows horizontal
+ * scroll bars
+ */
+.highlight pre {
+	padding: 0.5em;
+	overflow-x: auto;
+    overflow-y: hidden;
+}
+
+pre > code {
+    white-space: pre;
+    margin-top: -0.5em;
+    margin-bottom: -0.5em;
+    display: block;
+}
+
+p > code {
+	margin: -0.5em;
+}
+
+.highlight {
+	padding: 0;
+	-webkit-margin-start: 0px; /* Decrease margin left of code block */
+	-webkit-margin-end: 0px; /* Same, on right */
+}
+
+/* Eliminate excess padding from tables, which are only present
+ * when line numbers are present
+ */
+.highlight table { margin-bottom: 0; border: none; }
+
+/* The white-space and word-wrap directives ensure that code lines are not
+ * wrapped, and instead we end up with horizontal scroll bars. The next
+ * block handles this for code blocks with line numbers, the next for those
+ * without.
+ */
+.highlight td.code pre {
+	padding: 0;
+	white-space: pre;
+}
+
+.highlight > pre {
+	white-space: pre;
+	word-wrap: normal;
+}
+
+/* Get rid of borders around code */
+.highlight td.code { border: none; }
+
+/* Introduce right border only on line number gutter to separate
+ * line numbers and code. Introduce slight padding between line
+ * numbers and border.
+ */
+.highlight td.gutter.gl {
+	width: 1px;
+	border: none;
+	border-right: 2px solid transparent;
+	color: #fff;
+	word-break: keep-all;
+	padding: 0 0.5em 0 0.1em;
+	white-space: normal;
+}
+
+/* Prevent line numbers from being selected or copied and
+ * pasted by users.
+ */
+.highlight .lineno {
+    color: #2C80AF;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding: 0;
+	word-break: keep-all;
+}
+
+/* VS code */
+.vs-code {
+	font-family:Consolas;
+	font-size:13;
+	color:#dfdfbf;
+	background:#2c2c2c;
+	white-space:pre;
+    margin: 0.3rem;
+	margin-bottom: 0.5em;
+	overflow-x: auto;
+	overflow-y: hidden;
+	display: block;
+	padding: 0.5em;
+}
+
+figure {
+  margin: 0.3rem;
+}
+
+/* Code colors (can be easily modified!) */
+.vs-code .comment { color:#7a987a;}
+.vs-code .keyword { color: #efc986; }
+.vs-code .cppMacro { color: #bd63c5}
+.vs-code .number { color: #6e96be;}
+.vs-code .operator { color: #dfdfbf;}
+.vs-code .cppType { color:#8acccf; }
+.vs-code .cppMemberFunction { color:#c8c8c8; }
+.vs-code .cppMemberField { color: #dadada;}
+.vs-code .cppMemberOperator { color: #b4b4b4;}
+.vs-code .cppParameter { color:#7f7f7f; }
+.vs-code .cppEnumerator { color:#b8d7a3; }
+.vs-code .string { color:#dfaf8f; }
+.vs-code .cppLocalVariable { color:#c8c8c8; }
+.vs-code .cppGlobalVariable { color:#c8c8c8; }
+.vs-code .cppNamespace { color: #c8c8c8;}
+.vs-code .cppFunction { color: #c8c8c8;}
+
+/* Console output */
+.console-output {
+	font-family:Consolas;
+	font-size:13;
+	color:white;
+	background:black;
+	/* who knew that word wrapping is hard? */
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    margin: 0.3rem;
+	margin-bottom: 0.5em;
+	overflow-x: auto;
+	overflow-y: hidden;
+	display: block;
+	padding: 0.5em;
+}
