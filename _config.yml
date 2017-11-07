@@ -5,4 +5,4 @@ markdown: kramdown
 kramdown:
     input: GFM
     syntax_highlighter: rouge
-    hard_wrap: true
+    hard_wrap: false
