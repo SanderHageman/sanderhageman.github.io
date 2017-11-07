@@ -18,4 +18,3 @@ defaults:
 collections:
   slides:
     output: true
-    permalink: /:collection/:name
