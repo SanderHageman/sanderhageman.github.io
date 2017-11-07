@@ -70,6 +70,11 @@ p {
     color: #373D3F;
 }
 
+nav {
+    border-bottom: 1px solid #8B8C81;
+    padding-bottom: .8em;
+    padding-top: .8em;
+}
 
 footer {
     margin-top: 1em;
