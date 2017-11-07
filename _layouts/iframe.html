@@ -5,11 +5,16 @@
   <script src="{{ site.github.url }}/lightgallery.js/dist/js/lightgallery.min.js"></script>
 </head>
 <body>
-{{ content }}
+  
+<div id="slides">
+  {{ content }}
+</div>
+  
 <script type="text/javascript"> 
-    lightGallery(document.getElementById('ul'), {
+    lightGallery(document.getElementById('slides'), {
         download: false
     });
 </script>
+  
 </body>
 </html>
