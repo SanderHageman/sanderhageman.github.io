@@ -5,3 +5,7 @@
 # {{ site.slides.name[include.slide] }}
 {% assign slidepg = site.slides.name[include.slide] %}
 {{ slidepg }}
+
+{{% for item in site.slides %}}
+##{{ item.path }}
+{{% endfor %}}
