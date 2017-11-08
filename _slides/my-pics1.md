@@ -1,6 +1,7 @@
 ---
 layout: iframe
 title: my-pics1
+markdown: false
 ---
 {% assign image_files = site.static_files | where: "image", true | where_exp: "myimage", 'myimage.path contains page.title' %}
 {% for myimage in image_files %}
