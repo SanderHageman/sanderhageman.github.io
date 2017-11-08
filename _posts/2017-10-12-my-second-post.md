@@ -9,4 +9,33 @@ Second Post Test123
 <br>
 ![My helpful screenshot]({{ "/assets/defaultThumb.jpg" | absolute_url }})
 <br>
-{% include slides.html slide="my-pics1.html" %}
+
+<div id="slider_container_2">
+  <div id="SliderName_2">
+    
+    {% assign image_files = site.static_files | where: "image", true %}
+    {% for myimage in image_files %}
+    
+    <img src="{{ myimage.path }}" width="700" height="450" alt="Demo2 second" title="Demo2 second" />
+    <div class="SliderName_2Description">Featured model: <strong>Charlize Theron</strong></div>
+
+    {% endfor %}
+  </div>
+  <div id="SliderNameNavigation_2"></div>
+</div>
+
+<script type="text/javascript">
+  var demoSlider = Sliderman.slider({ container: 'SliderName_2', width: 700, height: 450, effects: effectsDemo2,
+    display: {
+      autoplay: 3000,
+      loading: {background: '#000000', opacity: 0.5, image: '{{ "/assets/sliderman/loading.gif" | absolute_url }}'},
+      buttons: {
+        hide: true,
+        opacity: 1,
+        prev: {className: 'SliderNamePrev_2', label: ''},
+        next: {className: 'SliderNameNext_2', label: ''}
+      },
+      navigation: {container: 'SliderNameNavigation_2', label: '<img src="{{ "/assets/sliderman/clear.gif" | absolute_url }}" />'}
+    }
+  });
+</script>
