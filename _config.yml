@@ -15,6 +15,13 @@ defaults:
     values:
       layout: "iframe"
 
+  -
+    scope:
+      path: "_slides/img" 
+    values:
+      image: true
+
+
 collections:
   slides:
     output: true
