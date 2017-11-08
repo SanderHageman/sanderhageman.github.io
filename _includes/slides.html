@@ -1,3 +1,13 @@
-<div style='position: relative; width: 100%; padding-bottom: 70%; margin-bottom:1em; margin-top: 1em;'>
-<iframe style='position: absolute; left: 0px; top: 0px; width: 100%; height: 100%' src="{{ site.github.url }}/slides/{{ include.slide }}"></iframe>
+<div id="slider_container_2">
+  <div id="SliderName_2">
+    
+    {% assign image_files = site.static_files | where: "image", true | where_exp: "myimage", "myimage.path contains include.slide" %}
+    {% for myimage in image_files %}
+    
+    <img src="{{ myimage.path }}" width="700" height="450" alt="Demo2 second" title="Demo2 second" />
+    <div class="SliderName_2Description">Featured model: <strong>Charlize Theron</strong></div>
+
+    {% endfor %}
+  </div>
+  <div id="SliderNameNavigation_2"></div>
 </div>
