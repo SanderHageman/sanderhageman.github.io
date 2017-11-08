@@ -26,7 +26,7 @@ Second Post Test123
 
 <script type="text/javascript">
   effectsDemo2 = 'rain,stairs,fade';
-  var demoSlider_2 = Sliderman.slider({container: 'SliderName_2', width: 1000, height: 450, effects: effectsDemo2,
+  var demoSlider_2 = Sliderman.slider({container: 'SliderName_2', width: window.innerWidth, height: 450, effects: effectsDemo2,
     display: {
       autoplay: 3000,
       loading: {background: '#000000', opacity: 0.5, image: '{{ "/assets/sliderman/loading.gif" | absolute_url }}'},
