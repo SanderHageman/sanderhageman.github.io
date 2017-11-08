@@ -49,16 +49,3 @@
 	line-height: 0;
 	text-decoration: none;
 }
-
-#SliderNameNavigation_2 a img
-{
-	border: none;
-	width: 16px;
-	height: 16px;
-	background: url(../assets/sliderman/bullet.png) no-repeat center center;
-}
-
-#SliderNameNavigation_2 a.active img
-{
-	background: url(../assets/sliderman/bullet_active.png) no-repeat center center;
-}
