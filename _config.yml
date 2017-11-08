@@ -17,7 +17,7 @@ defaults:
 
   -
     scope:
-      path: "_slides/img" 
+      path: "_slides/my-pics1" 
     values:
       image: true
 
