@@ -13,7 +13,7 @@ Second Post Test123
 <div id="slider_container_2">
   <div id="SliderName_2">
     
-    {% assign image_files = site.static_files | where: "image", true %}
+    {% assign image_files = site.static_files | where: "image", true | where_exp: "myimage", "myimage.path contains 'my-pics1'"%}
     {% for myimage in image_files %}
     
     <img src="{{ myimage.path }}" width="700" height="450" alt="Demo2 second" title="Demo2 second" />
