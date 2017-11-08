@@ -3,9 +3,8 @@ layout: iframe
 title: my-pics1
 ---
 
-{% assign image_files = site.static_files %}
+{% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
-Image:
   {{ myimage.path }}
 {% endfor %}
 
