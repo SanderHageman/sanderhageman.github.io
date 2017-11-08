@@ -17,7 +17,6 @@ Second Post Test123
     {% for myimage in image_files %}
     
     <img src="{{ myimage.path }}" width="700" height="450" alt="Demo2 second" title="Demo2 second" />
-    <div class="SliderName_2Description">Featured model: <strong>Charlize Theron</strong></div>
 
     {% endfor %}
   </div>
@@ -32,7 +31,6 @@ Second Post Test123
       autoplay: 3000,
       loading: {background: '#000000', opacity: 0.5, image: '{{ "/assets/sliderman/loading.gif" | absolute_url }}'},
       buttons: {hide: true, opacity: 1, prev: {className: 'SliderNamePrev_2', label: ''}, next: {className: 'SliderNameNext_2', label: ''}},
-      description: {hide: true, background: '#000000', opacity: 0.4, height: 50, position: 'bottom'},
       navigation: {container: 'SliderNameNavigation_2', label: '<img src="{{ "/assets/sliderman/clear.gif" | absolute_url }}" />'}
     }
   });
