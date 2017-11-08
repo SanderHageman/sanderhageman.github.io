@@ -5,7 +5,7 @@ title: my-pics1
 
 {% assign image_files = site.static_files | where: "image", true%}
 {% for mImg in image_files %}
-{{ mImg.path }}
+Image: {{ mImg.path }} <br>
 {% endfor %}
 
 * ![A nice pic of mine](my-pics1/pic1.jpg)
