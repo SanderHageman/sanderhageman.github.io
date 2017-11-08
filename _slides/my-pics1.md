@@ -3,9 +3,10 @@ layout: iframe
 title: my-pics1
 ---
 
-{% assign image_files = site.static_files | where: "image", true %}
-{% for mImg in image_files %}
-Image: {{ mImg.path }} <br>
+{% assign image_files = site.static_files %}
+{% for myimage in image_files %}
+Image:
+  {{ myimage.path }}
 {% endfor %}
 
 * ![A nice pic of mine](my-pics1/pic1.jpg)
