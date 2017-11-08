@@ -1,51 +1,64 @@
-#slider_container_1 { float: left; padding: 10px; width: 640px; background: #000000; -moz-border-radius: 10px 10px; -webkit-border-radius: 10px 10px; border-radius: 10px 10px; }
+#slider_container_2 { float: left; margin: 0 0 0 -15px; padding: 15px; width: 700px; background: url(../assets/sliderman/bg.png) no-repeat 0 0; }
 
-#SliderName{
-	width: 640px;
-	height: 300px;
-	margin: auto;
+.SliderName_2 {
+	float: left;
+	width: 700px;
+	height: 450px;
+	overflow: hidden;
 }
 
-.SliderNamePrev{
-	background: url(../img/left.gif) no-repeat center center;
-	width: 24px;
-	height: 24px;
+.SliderNamePrev_2 {
+	background: url(../assets/sliderman/left.png) no-repeat left center;
+	width: 50px;
+	height: 450px;
 	display: block;
 	position: absolute;
-	top: 138px;
-	left: 10px;
+	top: 0;
+	left: 0;
 	text-decoration: none;
 }
 
-.SliderNameNext{
-	background: url(../img/right.gif) no-repeat center center;
-	width: 24px;
-	height: 24px;
+.SliderNameNext_2 {
+	background: url(../assets/sliderman/right.png) no-repeat right center;
+	width: 50px;
+	height: 450px;
 	display: block;
 	position: absolute;
-	top: 138px;
-	right: 10px;
+	top: 0;
+	right: 0;
 	text-decoration: none;
 }
 
-.SliderNameDescription{
-	font-family: Verdana;
-	font-size: 10px;
-	text-align: left;
-	padding: 5px;
+.SliderName_2Description {
+	padding: 10px;
+	font-family: Tahoma,Arial,Helvetica;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: 0 1px 3px #000000;
 }
 
-#SliderNameNavigation { margin: 10px 0 0 0; padding-top: 15px; height: 15px; text-align: center; -moz-border-radius: 6px 6px; background: #fff; }
+#SliderNameNavigation_2 { margin: 0; padding: 10px 0 0 0; height: 16px; text-align: center; overflow-y: hidden; }
 
-#SliderNameNavigation a:link, #SliderNameNavigation a:active, #SliderNameNavigation a:visited, #SliderNameNavigation a:hover{
-	margin: 0 2px;
-	background: url(../img/nav.gif) no-repeat center center;
-	font-size: 0px;
-	line-height: 0px;
-	padding: 12px;
+#SliderNameNavigation_2 a:link, #SliderNameNavigation_2 a:active, #SliderNameNavigation_2 a:visited, #SliderNameNavigation_2 a:hover{
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	line-height: 0;
 	text-decoration: none;
 }
 
-#SliderNameNavigation a.active:link, #SliderNameNavigation a.active:active, #SliderNameNavigation a.active:visited, #SliderNameNavigation a.active:hover{
-	background: url(../img/nav_active.gif) no-repeat center center;
+#SliderNameNavigation_2 a img
+{
+	border: none;
+	width: 16px;
+	height: 16px;
+	background: url(../assets/sliderman/bullet.png) no-repeat center center;
+}
+
+#SliderNameNavigation_2 a.active img
+{
+	background: url(../assets/sliderman/bullet_active.png) no-repeat center center;
 }
