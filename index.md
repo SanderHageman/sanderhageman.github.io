@@ -10,14 +10,14 @@ Link to portfolio <a href="/portfolio">here</a>
 <div class="BestAchievements">
 	
 	 {% for project in site.projects %}
+	 	<ul class="posts">
 		{% if project.achievement %}
-			<ul class="posts">
 			<li>		
 				<a href="{{ project.url }}" title="{{ project.title }}">
 					{{ project.title }}
 				</a>
 			</li>
-			</ul>
 		{% endif %}
+		</ul>
 	{% endfor %}
 </div>
