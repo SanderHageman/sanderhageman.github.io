@@ -12,7 +12,7 @@ Einar is a third person hack and slash game made in Unreal Engine 4. The game is
 You can view the trailer [on youtube](https://www.youtube.com/watch?v=cAe5JFwOv6A)
 
 
-## My Contribution
+## My Contributions
 * __Playstation 4__
   * During the development of the game I was responsible for making the game compatible with the PS4. This included making modifications to the UE4 source and extensive use of the PS4 development tools.
   
