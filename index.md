@@ -2,11 +2,11 @@
 layout: default
 title: Sander Hageman; Portfolio website
 ---
-# Portfolio Sander Hageman
-## Student Games Programmer
+## Portfolio Sander Hageman
+### Student Games Programmer
 Link to portfolio <a href="/portfolio">here</a>
 
-## This is where I'll list the projects that should be instantly seen:
+### Highlighted:
 <div class="BestAchievements">
 	<ul class="posts">
 	 {% for project in site.projects %}
