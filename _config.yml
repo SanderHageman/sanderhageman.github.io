@@ -14,3 +14,9 @@ defaults:
       path: "assets/img" 
     values:
       image: true
+   
+collections:
+  posts:
+    output:   true
+  post:
+    output:   true
