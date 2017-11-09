@@ -16,5 +16,6 @@ defaults:
       image: true
    
 collections:
-  posts:
+  post:
     output:   true
+    permalink: "/:title"
