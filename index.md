@@ -8,8 +8,8 @@ title: Sander Hageman; Portfolio website
 	<p>Link to portfolio <a href="/portfolio">here</a></p>
 </div>
 
+## This is where I'll list the projects that should be instantly seen:
 <div class="BestAchievements">
-	##This is where I'll list the projects that should be instantly seen:
 	
 	 {% for post in site.posts %}
 		{% if post.achievement %}
