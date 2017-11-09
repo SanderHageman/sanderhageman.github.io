@@ -96,11 +96,15 @@ ul.posts li {
 }
 
 .post ul li {
-    list-style: inside;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 0.1em;
+    margin: 0.2em;
 }
 
 .post ul li li {
-    list-style-type: circle;
+    font-weight: normal;
+    font-size: 0.9em;
     padding-left: 1em;
 }
 
