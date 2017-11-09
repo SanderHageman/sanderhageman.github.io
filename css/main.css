@@ -23,7 +23,7 @@ body {
 }
 
 
-nav ul, footer ul {
+nav ul, nav p, footer ul {
     font-family:'Open Sans', 'sans-serif';
     padding: 0em;
     list-style: none;
@@ -31,7 +31,12 @@ nav ul, footer ul {
 }
 
 nav ul {
+    line-height: 0em;
     text-align: right;
+}
+
+nav p {
+    line-height: 0em;
 }
 
 nav ul li, footer ul li {
