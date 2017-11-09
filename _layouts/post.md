@@ -10,7 +10,7 @@
 		</head>
 		<body>
 			{% include navigation.html %}
-			# {{ page.title }}
+			<h1>{{ page.title }}</h1>
       <p class="meta">{{ page.subtitle }}</p>
 			<div class="post">
 			  {{ content }}
