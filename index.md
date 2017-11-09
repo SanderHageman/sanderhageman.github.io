@@ -22,5 +22,4 @@ title: Sander Hageman; Portfolio website
 			</ul>
 		{% endif %}
 	{% endfor %}
-</ul>
 </div>
