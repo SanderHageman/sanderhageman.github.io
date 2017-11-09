@@ -18,5 +18,3 @@ defaults:
 collections:
   posts:
     output:   true
-  post:
-    output:   true
