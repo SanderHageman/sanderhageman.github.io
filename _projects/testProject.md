@@ -6,4 +6,4 @@ subtitle: "Testing different folder struct"
 
 Second Post Test123
 <!-- [My helpful screenshot]({{ "/assets/defaultThumb.jpg" | absolute_url }}) -->
-{% include gallery.html prefix="my-pics1" %}
+{% include gallery.html prefix="/assets/" %}
