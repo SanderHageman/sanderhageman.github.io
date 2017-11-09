@@ -16,9 +16,8 @@ Link to portfolio <a href="/portfolio">here</a>
 				<a href="{{ project.url }}" title="{{ project.title }}">
 					{{ project.title }}
 				</a>
-				<li>
+				
 				 {{ project.subtitle }}
-</li>
 			</li>
 		
 	{% endfor %}
