@@ -45,25 +45,23 @@ a:hover {
     text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6 { line-height: 1.7em;}
+h1, h2, h3, h4, h5, h6 { line-height: 1.5em;}
 
 h1 {
     font-size: 3em;
-    color: #373D3F;
 }
+
 h2 {
     font-size: 2em;
-    color: #373D3F;
 }
+
 h3 {
     font-size: 1.4em;
-    color: #373D3F;
 }
 
 p {
     font-size: 1.2em;
     line-height: 1.3em;
-    color: #373D3F;
 }
 
 nav {
