@@ -27,21 +27,9 @@ Second Post Test123
 
 <script type="text/javascript"> 
 $(window).on('load', function() {
-    var nivoSlidera = function($) {
-        $('#nivoSlider').nivoSlider({ 
-            boxCols:7,
-            boxRows:5,
-            pauseTime:3000,
-            effect:"fade",
-            controlNav:true,
-            directionNav:true,
-            pauseOnHover:true,
-            animSpeed:600,
-            prevText:"&lt;",
-            nextText:"&gt;",
-            slices:15,
-            manualAdvance:false
-        });
-    };
+    $('#slider').nivoSlider({
+        effect: 'fade',
+        animSpeed: 600
+    });
 }); 
 </script>
