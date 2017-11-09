@@ -23,7 +23,7 @@ title: Portfolio
 		<br>
 		
 			{% if project.subtitle %}
-				{{ project.subtitle | remove: '<p>' | remove: '</p>' }}
+				{{ project.subtitle }}
 			{% else %}
 				{{ project.excerpt | strip_html | remove: '<p>' | remove: '</p>' }}
 			{% endif %}
