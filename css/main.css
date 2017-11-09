@@ -12,17 +12,14 @@ body {
 
 @media screen and (max-width: 1080px) {
     body {
-        background-color: lightblue;
         width: 80%;
     }
 }
 
 @media screen and (max-width: 580px) {
     body {
-        background-color: lightgreen;
         width: 95%;
     }
-
 }
 
 
