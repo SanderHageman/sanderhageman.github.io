@@ -10,28 +10,22 @@ Second Post Test123
 ![My helpful screenshot]({{ "/assets/defaultThumb.jpg" | absolute_url }})
 <br>
 
-<div id="slider_container_2">
-  <div id="SliderName_2">
-    
+
+<div id="slider" class="nivoSlider">     
     {% assign image_files = site.static_files | where: "image", true | where_exp: "myimage", "myimage.path contains 'my-pics1'"%}
     {% for myimage in image_files %}
     
-    <img src="{{ myimage.path }}" width="700" height="450" alt="Demo2 second" title="Demo2 second" />
+    <img src="{{ myimage.path }}"/>
 
     {% endfor %}
-  </div>
-  <div id="SliderNameNavigation_2"></div>
+</div> 
+
+<div id="htmlcaption" class="nivo-html-caption">     
+    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
 </div>
 
-
-<script type="text/javascript">
-  effectsDemo2 = 'rain,stairs,fade';
-  var demoSlider_2 = Sliderman.slider({container: 'SliderName_2', effects: effectsDemo2,
-    display: {
-      autoplay: 3000,
-      loading: {background: '#000000', opacity: 0.5, image: '{{ "/assets/sliderman/loading.gif" | absolute_url }}'},
-      buttons: {hide: true, opacity: 1, prev: {className: 'SliderNamePrev_2', label: ''}, next: {className: 'SliderNameNext_2', label: ''}},
-      navigation: {container: 'SliderNameNavigation_2', label: '<img src="{{ "/assets/sliderman/clear.gif" | absolute_url }}" />'}
-    }
-  });
+<script type="text/javascript"> 
+$(window).on('load', function() {
+    $('#slider').nivoSlider(); 
+}); 
 </script>
