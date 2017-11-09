@@ -9,8 +9,9 @@ Link to portfolio <a href="/portfolio">here</a>
 ### Highlighted:
 <div class="BestAchievements">
 	<ul class="posts">
-	 {% for project in site.projects %}
-		{% if project.achievement %}
+{% assign achievements = site.projects | where "achievement", true %}
+	 {% for project in achievements %} 
+		
 			<li>		
 				<a href="{{ project.url }}" title="{{ project.title }}">
 					{{ project.title }}
@@ -18,7 +19,7 @@ Link to portfolio <a href="/portfolio">here</a>
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp; {{ project.subtitle }}
 			</li>
-		{% endif %}
+		
 	{% endfor %}
 	</ul>
 </div>
