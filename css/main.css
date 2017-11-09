@@ -96,9 +96,17 @@ ul.posts p {
 }
 
 ul.posts li {
+    font-weight: bold;
+    font-size: 1.2em;
     list-style: none;
     padding-bottom: 0.3em;
 }
+
+ul.posts li li {
+   padding-left: 1em;
+    font-size: 0.9em;
+    font-weight: normal;
+       } 
 
 .post ul li {
     font-weight: bold;
