@@ -5,11 +5,11 @@ title: Portfolio
 <h1>{{ page.title }}</h1>
 <ul class="posts">
 
-  {% for post in site.post %}
+  {% for project in site.projects %}
 
 	<li>
 		<p>
-		<a href="{{ post.url }}" title="{{ post.title }}">
+		<a href="{{ project.url }}" title="{{ project.title }}">
 
 			<!-- {% if post.thumbnail %}
 				<img src= {{post.thumbnail}} style="width:64px;height:64px;">
@@ -17,15 +17,15 @@ title: Portfolio
 				<img src= "/assets/defaultThumb.jpg" style="width:64px;height:64px;"> 
 			{% endif %} -->
 
-			{{ post.title }}
+			{{ project.title }}
 		</a>
 
 		<br>
 		
-			{% if post.subtitle %}
-				{{ post.subtitle | remove: '<p>' | remove: '</p>' }}
+			{% if project.subtitle %}
+				{{ project.subtitle | remove: '<p>' | remove: '</p>' }}
 			{% else %}
-				{{ post.excerpt | strip_html | remove: '<p>' | remove: '</p>' }}
+				{{ project.excerpt | strip_html | remove: '<p>' | remove: '</p>' }}
 			{% endif %}
 		</p>
 	</li>
