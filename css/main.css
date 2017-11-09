@@ -58,7 +58,11 @@ h2 {
     font-family:'Open Sans', 'sans-serif';
     color: #373D3F;
 }
-
+h3 {
+    font-size: 1.4em;
+    font-family:'Open Sans', 'sans-serif';
+    color: #373D3F;
+}
 
 p {
     margin: 0.2em auto;
