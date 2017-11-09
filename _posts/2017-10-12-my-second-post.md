@@ -27,8 +27,8 @@ Second Post Test123
 
 <script type="text/javascript"> 
 $(window).on('load', function() {
-    var metaslider_363 = function($) {
-        $('#metaslider_363').nivoSlider({ 
+    var nivoSlidera = function($) {
+        $('#nivoSlider').nivoSlider({ 
             boxCols:7,
             boxRows:5,
             pauseTime:3000,
@@ -43,9 +43,5 @@ $(window).on('load', function() {
             manualAdvance:false
         });
     };
-    
-    
-    
-    $('#slider').nivoSlider(); 
 }); 
 </script>
