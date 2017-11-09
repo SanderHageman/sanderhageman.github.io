@@ -2,11 +2,9 @@
 layout: default
 title: Sander Hageman; Portfolio website
 ---
-<div class="MainPageContent">
-	<h1>Portfolio Sander Hageman</h1>
-	<h2>Student Games Programmer</h2>
-	<p>Link to portfolio <a href="/portfolio">here</a></p>
-</div>
+# Portfolio Sander Hageman
+## Student Games Programmer
+Link to portfolio <a href="/portfolio">here</a>
 
 ## This is where I'll list the projects that should be instantly seen:
 <div class="BestAchievements">
