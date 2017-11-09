@@ -30,6 +30,9 @@ nav ul, footer ul {
     font-weight: bold;
 }
 
+nav ul {
+    text-align: right;
+}
 
 nav ul li, footer ul li {
     display: inline;
