@@ -22,6 +22,10 @@ body {
     }
 }
 
+.pageSubtitle {
+    line-height: 0.8em;
+    font-size: 0.8em;
+}
 
 nav ul, footer ul {
     font-family:'Open Sans', 'sans-serif';
