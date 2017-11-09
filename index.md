@@ -12,7 +12,7 @@ title: Sander Hageman; Portfolio website
 	##This is where I'll list the projects that should be instantly seen:
 	
 	 {% for post in site.posts %}
-		{% if post.achievement == true %}
+		{% if post.achievement %}
 			<ul class="posts">
 			<li>		
 				<a href="{{ post.url }}" title="{{ post.title }}">
