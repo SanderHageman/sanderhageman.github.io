@@ -5,7 +5,7 @@ subtitle: "Testing different folder struct"
 ---
 
 Second Post Test123
-![My helpful screenshot]({{ "/assets/defaultThumb.jpg" | absolute_url }})
+<!-- [My helpful screenshot]({{ "/assets/defaultThumb.jpg" | absolute_url }}) -->
 
 <div class="slider-wrapper theme-bar">
 <div id="slider" class="nivoSlider">     
