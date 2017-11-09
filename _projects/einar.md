@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Einar"
-subtitle: "Third person hack and slash made in Unreal Engine 4"
+subtitle: "Third person hack and slash game made in Unreal Engine 4"
 achievement: true
 ---
 <!-- {% include ytvideo.html id="cAe5JFwOv6A" %} -->
