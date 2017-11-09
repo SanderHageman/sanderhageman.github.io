@@ -16,6 +16,6 @@ defaults:
       image: true
    
 collections:
-  post:
-    output:   true
-    permalink: "/:title"
+  projects:
+        output: true
+        permalink: "/:title"
