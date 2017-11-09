@@ -9,7 +9,7 @@ Link to portfolio <a href="/portfolio">here</a>
 ### Highlighted:
 <div class="BestAchievements">
 	<ul class="posts">
-{% assign achievements = site.projects | where "achievement", true %}
+{% assign achievements = site.projects | where: "achievement", true %}
 	 {% for project in achievements %} 
 		
 			<li>		
