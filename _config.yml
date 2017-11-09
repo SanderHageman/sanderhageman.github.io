@@ -11,17 +11,6 @@ kramdown:
 defaults:
   -
     scope:
-      path: "_slides" 
-    values:
-      layout: "iframe"
-
-  -
-    scope:
       path: "assets/img" 
     values:
       image: true
-
-
-collections:
-  slides:
-    output: true
