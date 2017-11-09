@@ -97,6 +97,7 @@ ul.posts p {
 
 ul.posts li {
     list-style: none;
+    padding-bottom: 0.3em;
 }
 
 .post ul li {
