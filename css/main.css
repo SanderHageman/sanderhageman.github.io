@@ -45,22 +45,18 @@ a:hover {
     text-decoration: underline;
 }
 
+h1, h2, h3, h4, h5, h6 { line-height: 1.7em;}
 
 h1 {
     font-size: 3em;
-    font-family:'Open Sans', 'sans-serif';
     color: #373D3F;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
 }
 h2 {
     font-size: 2em;
-    font-family:'Open Sans', 'sans-serif';
     color: #373D3F;
 }
 h3 {
     font-size: 1.4em;
-    font-family:'Open Sans', 'sans-serif';
     color: #373D3F;
 }
 
