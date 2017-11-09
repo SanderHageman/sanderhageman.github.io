@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "My Second Post"
-subtitle: "Testing slideshow of pictures and different name"
+title: "testProject"
+subtitle: "Testing different folder struct"
 ---
 
 Second Post Test123
