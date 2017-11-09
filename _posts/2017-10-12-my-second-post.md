@@ -1,14 +1,11 @@
 ---
 layout: post
 title: "My Second Post"
-date: 2017-10-12
+subtitle: "Testing slideshow of pictures"
 ---
 
-
 Second Post Test123
-<br>
 ![My helpful screenshot]({{ "/assets/defaultThumb.jpg" | absolute_url }})
-<br>
 
 <div class="slider-wrapper theme-default">
 <div id="slider" class="nivoSlider">     
@@ -20,10 +17,6 @@ Second Post Test123
     {% endfor %}
 </div> <!-- nivoSlider -->
 </div> <!-- slider-wrapper theme -->
-
-<div id="htmlcaption" class="nivo-html-caption">     
-    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
-</div>
 
 <script type="text/javascript"> 
 $(window).on('load', function() {
