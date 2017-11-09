@@ -13,5 +13,5 @@ You can view the trailer [on youtube](https://www.youtube.com/watch?v=cAe5JFwOv6
 
 
 ## My Contribution
-###PS4
+### PS4
 During the development of the game I was responsible for the creation and testing of the PS4 builds.
