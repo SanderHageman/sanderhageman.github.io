@@ -98,6 +98,15 @@ ul.posts li {
     list-style: none;
 }
 
+.post ul li {
+    list-style: inside;
+}
+
+.post ul li li {
+    list-style-type: circle;
+    padding-left: 1em;
+}
+
 .highlighter-rouge {
     padding: 1em;
     max-height: 50em;
