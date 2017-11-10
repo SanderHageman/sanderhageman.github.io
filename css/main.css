@@ -84,29 +84,7 @@ footer {
   font-size: .8em;
 }
 
-ul.posts {
-  margin: 20px auto 40px;
-  font-size: 1.3em;
-}
-
-ul.posts p {
-  font-size: 1.2em;
-  color: #373D3F;
-}
-
-ul.posts li {
-  font-weight: bold;
-  font-size: 1.2em;
-  list-style: none;
-  padding-bottom: 0.3em;
-}
-
-ul.posts li li {
-  padding-left: 1em;
-  font-size: 0.9em;
-  font-weight: normal;
-}
-
+.container ul li,
 .post ul li {
   font-weight: bold;
   font-size: 1.2em;
@@ -114,6 +92,7 @@ ul.posts li li {
   margin: 0.2em;
 }
 
+.container ul li li,
 .post ul li li {
   font-weight: normal;
   font-size: 0.9em;
@@ -129,4 +108,9 @@ ul.posts li li {
 
 pre {
   font-family: 'Inconsolata', monospace;
+}
+
+.steamEmbed {
+  padding-left: 5%;
+  width: 90%;
 }

@@ -2,10 +2,8 @@
 layout: default
 title: Portfolio
 ---
-<h1>{{ page.title }}</h1>
+# {{ page.title }}
 {% for project in site.projects %}
-<div class="post">
-* <a href="{{ project.url }}" title="{{ project.title }}"> {{ project.title }} </a>
+* [{{ project.title }}]({{ project.url }})
 	* {{ project.subtitle }}
-</div>
 {% endfor %}
