@@ -1,133 +1,137 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
-
 body {
-    margin: 1em auto;
-    width: 45%;
-    background-color: #F1F3F4; 
-  
-    font-family: 'Open Sans', sans-serif;
-    color: #373D3F;
+  margin: 1em auto;
+  width: 45%;
+  background-color: #F1F3F4;
+  font-family: 'Open Sans', sans-serif;
+  color: #373D3F;
 }
 
 @media screen and (max-width: 1080px) {
-    body {
-        width: 80%;
-    }
+  body {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 580px) {
-    body {
-        width: 95%;
-    }
+  body {
+    width: 95%;
+  }
 }
 
 .pageSubtitle {
-    font-size: 1.0em;
-    padding-bottom: 0.5em;
+  font-size: 1.0em;
+  padding-bottom: 0.5em;
 }
 
-nav ul, footer ul {
-    font-family:'Open Sans', 'sans-serif';
-    padding: 0em;
-    list-style: none;
-    font-weight: bold;
+nav ul,
+footer ul {
+  font-family: 'Open Sans', 'sans-serif';
+  padding: 0em;
+  list-style: none;
+  font-weight: bold;
 }
 
-
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 1em;
+nav ul li,
+footer ul li {
+  display: inline;
+  margin-right: 1em;
 }
-
 
 a {
-    text-decoration: none;
-    color: #107896;
-}
-a:hover {
-    text-decoration: underline;
+  text-decoration: none;
+  color: #107896;
 }
 
-h1, h2, h3, h4, h5, h6 { 
-    line-height: 1.5em;
-    font-weight: bold;
-    display: block;
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5em;
+  font-weight: bold;
+  display: block;
 }
 
 h1 {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 h2 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 h3 {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 p {
-    font-size: 1.2em;
-    line-height: 1.3em;
+  font-size: 1.2em;
+  line-height: 1.3em;
 }
 
 nav {
-    border-bottom: 1px solid #8B8C81;
-    padding-bottom: .8em;
-    padding-top: .8em;
+  border-bottom: 1px solid #8B8C81;
+  padding-bottom: .8em;
+  padding-top: .8em;
 }
 
 footer {
-    margin-top: 1em;
-    padding-top: 1em;
-    border-top: 1px solid #8B8C81;
-    font-size: .8em;
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid #8B8C81;
+  font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.3em;
+ul.posts {
+  margin: 20px auto 40px;
+  font-size: 1.3em;
 }
 
 ul.posts p {
-    font-size: 1.2em;
-    color: #373D3F;
+  font-size: 1.2em;
+  color: #373D3F;
 }
 
 ul.posts li {
-    font-weight: bold;
-    font-size: 1.2em;
-    list-style: none;
-    padding-bottom: 0.3em;
+  font-weight: bold;
+  font-size: 1.2em;
+  list-style: none;
+  padding-bottom: 0.3em;
 }
 
 ul.posts li li {
-   padding-left: 1em;
-    font-size: 0.9em;
-    font-weight: normal;
-       } 
+  padding-left: 1em;
+  font-size: 0.9em;
+  font-weight: normal;
+}
 
 .post ul li {
-    font-weight: bold;
-    font-size: 1.2em;
-    padding-bottom: 0.1em;
-    margin: 0.2em;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-bottom: 0.1em;
+  margin: 0.2em;
 }
 
 .post ul li li {
-    font-weight: normal;
-    font-size: 0.9em;
-    padding-left: 1em;
+  font-weight: normal;
+  font-size: 0.9em;
+  padding-left: 1em;
 }
 
 .highlighter-rouge {
-    padding: 1em;
-    max-height: 50em;
-    border: 1px solid #107896;
-    overflow: auto;
+  padding: 1em;
+  max-height: 50em;
+  border: 1px solid #107896;
+  overflow: auto;
 }
 
 pre {
-    font-family: 'Inconsolata', monospace;
+  font-family: 'Inconsolata', monospace;
 }
