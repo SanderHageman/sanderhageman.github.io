@@ -1,5 +1,6 @@
 name: Sander Hageman
 permalink: "/:title"
+timezone: Europe/Amsterdam
 highlighter: rouge
 markdown: kramdown
 kramdown:
