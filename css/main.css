@@ -79,6 +79,11 @@ p {
   padding-bottom: 0.5em;
 }
 
+.pageSubtitle p {
+  font-size: 0.9em;
+  line-height: 0.7em;
+}
+
 nav {
   border-bottom: 1px solid #8B8C81;
   padding-bottom: .8em;
@@ -95,15 +100,15 @@ footer {
 .container ul li,
 .post ul li {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.0em;
   padding-bottom: 0.1em;
+  line-height: 1.1em;
   margin: 0.2em;
 }
 
 .container ul li li,
 .post ul li li {
   font-weight: normal;
-  font-size: 0.9em;
   padding-left: 1em;
 }
 

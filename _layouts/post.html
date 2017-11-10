@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			{% include defaultHeader.html %}
-			{% include nivosliderHeader.html %}
-			<link rel="stylesheet" type="text/css" href="/css/syntax.css">
-			
-		</head>
-		<body>
-			{% include navigation.html %}
-			<h1>{{ page.title }}</h1>
-      			<p class="pageSubtitle">{{ page.subtitle }}</p>
-			<div class="post">
-			  {{ content }}
-			</div>
-			<footer>
-        {% include footer.html %}
-			</footer>
-		</body>
-	</html>
+<html>
+
+<head>
+	{% include defaultHeader.html %} 
+	{% include nivosliderHeader.html %}
+	<link rel="stylesheet" type="text/css" href="/css/syntax.css">
+
+</head>
+
+<body>
+	{% include navigation.html %}
+	<h1>{{ page.title }}</h1>
+	<div class="pageSubtitle">
+		<p> {{ page.subtitle }} </p>
+		
+		{% if page.projectDate %}
+			<p> Date of project: {{ page.projectDate }} </p> 
+		{% endif %}
+	</div>
+
+	<div class="post">
+		{{ content }}
+	</div>
+	<footer>
+		{% include footer.html %}
+	</footer>
+</body>
+
+</html>

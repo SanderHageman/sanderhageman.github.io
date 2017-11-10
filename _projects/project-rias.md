@@ -2,6 +2,7 @@
 layout: post
 title: "Project RIAS"
 subtitle: "Third person puzzle platformer made in Unity"
+projectDate: "September 2014 - January 2015"
 thumbnail: "/assets/rias.jpg"
 achievement: true
 ---

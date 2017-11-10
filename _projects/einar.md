@@ -2,6 +2,7 @@
 layout: post
 title: "Einar"
 subtitle: "Third person hack and slash game made in Unreal Engine 4 for PS4"
+projectDate: "September 2016 - July 2017"
 achievement: true
 ---
 <div class="galleryOverlay">
