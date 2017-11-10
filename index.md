@@ -2,8 +2,10 @@
 layout: default 
 title: Sander Hageman; Portfolio website
 ---
-## Portfolio Sander Hageman 
-### Student Games Programmer 
+# Sander Hageman 
+<p class="pageSubtitle">
+Game Programmer 
+</p>
 
 ### Released game
 <div class="steamEmbed">
