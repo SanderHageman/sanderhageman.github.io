@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 body {
-  margin: 1em auto;
+  margin: auto;
   width: 45%;
   background-color: #F1F3F4;
   font-family: 'Open Sans', sans-serif;
@@ -34,6 +34,14 @@ footer ul li {
   margin-right: 1em;
 }
 
+nav ul {
+  padding-top: 0.3em;
+}
+
+nav ul.navItems li.navTitle {
+  float: right;
+}
+
 a {
   text-decoration: none;
   color: #107896;
@@ -49,9 +57,8 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.5em;
+  line-height: 1.2em;
   font-weight: bold;
-  display: block;
 }
 
 h1 {
@@ -67,8 +74,9 @@ h3 {
 }
 
 p {
-  font-size: 1.2em;
-  line-height: 1.3em;
+  font-size: 1.0em;
+  line-height: 1.1em;
+  padding-bottom: 0.5em;
 }
 
 nav {
@@ -113,4 +121,9 @@ pre {
 .steamEmbed {
   padding-left: 5%;
   width: 90%;
+}
+
+.theme-bar.slider-wrapper{
+  margin-top: 1em; 
+  margin-bottom: 1em;
 }
