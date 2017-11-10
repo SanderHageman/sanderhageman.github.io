@@ -19,3 +19,5 @@ collections:
   projects:
         output: true
         permalink: "/:title"
+
+host: 0.0.0.0
