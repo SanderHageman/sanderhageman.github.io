@@ -3,6 +3,7 @@ layout: post
 title: "My First Post"
 thumbnail: "/assets/first.jpg"
 subtitle: "Testing code snippet"
+published: false
 ---
 
 ## First Post Test
