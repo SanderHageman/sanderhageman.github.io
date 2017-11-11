@@ -193,6 +193,11 @@ pre {
   box-sizing: border-box;
 }
 
+#portfolioList .desc a {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
 #portfolioList .thumb {
   display: block;
   float: left;
