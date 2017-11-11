@@ -166,3 +166,40 @@ pre {
 .steamOverlayButton:hover {
   width: 160px;
 }
+
+#portfolioList{ 
+  display: table;
+  width: 100%;
+}
+
+#portfolioList .portfolioItem {
+  margin-bottom: 40px;
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#portfolioList .desc {
+  display: block;
+  float: left;
+  width: 60%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+#portfolioList .thumb {
+  display: block;
+  float: left;
+  position: relative;
+  
+  padding-left: 10px;
+  width: 40%;
+  box-sizing: border-box;
+}
+
+#portfolioList .thumbnail {
+  width: 100%;
+}

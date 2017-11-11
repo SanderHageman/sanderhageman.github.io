@@ -8,10 +8,15 @@ defaults:
       path: "assets/img" 
     values:
       image: true
+  -
+    scope:
+      path: "assets/img/thumbnails" 
+    values:
+      thumbnail: true
    
 collections:
   projects:
         output: true
-        permalink: "/:title"
+        permalink: "/:collection/:title"
 
 host: 0.0.0.0

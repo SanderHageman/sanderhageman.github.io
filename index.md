@@ -7,7 +7,7 @@ title: Sander Hageman; Portfolio website
 Game Programmer 
 </p>
 
-### Released game
+### Released:
 <div class="steamEmbed">
 <iframe src="http://store.steampowered.com/widget/674400/" frameborder="0" width="100%" height="190"></iframe>
 </div>

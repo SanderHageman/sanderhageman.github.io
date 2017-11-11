@@ -3,7 +3,9 @@ layout: default
 title: Portfolio
 ---
 # {{ page.title }}
+
+<div id="portfolioList">
 {% for project in site.projects %}
-* [{{ project.title }}]({{ project.url }})
-	* {{ project.subtitle }}
+{% include projectItem.md proj=project %}
 {% endfor %}
+</div>	
