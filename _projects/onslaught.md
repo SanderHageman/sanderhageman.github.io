@@ -2,20 +2,13 @@
 layout: post
 title: "Onslaught"
 subtitle: "Top-down twin-stick shooter game made in Unreal Engine 4 for mobile devices."
-info: "Onslaught is top-down arcade shooter made in Unreal Engine 4. The game was developed for mobile devices. The player has to shoot and slice through a variety of enemies."
+info: "Onslaught is a top-down arcade shooter made in Unreal Engine 4. The game was developed for mobile devices. The player has to shoot and slice through a variety of enemies. Each time the player hits an enemy the players rage-meter will increase. When the rage-meter is filled the player will be able to attach a ground of enemies at once using its sword."
 projectDate: "September 2015 - January 2016"
 achievement: true
 ---
-<div class="galleryOverlay">
-  {% include gallery.html prefix="/einarPics/" %}
-  <a href="http://store.steampowered.com/app/674400/Einar/" class="steamOverlayButton"></a>
-</div>
-## Description
-{{ page.info }} Each time the player hits an enemy the players rage-meter will increase. When the rage-meter is filled the player will be able to attach a ground of enemies at once using its sword.
-
 {% include ytvideo.html id="vihaGfsV1GQ" %}
-
-You can view the trailer [on youtube](https://www.youtube.com/watch?v=vihaGfsV1GQ)
+## Description
+{{ page.info }} 
 
 {% comment %}
 ## My Contributions
