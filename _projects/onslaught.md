@@ -6,11 +6,12 @@ info: "Onslaught is a top-down arcade shooter made in Unreal Engine 4. The game 
 projectDate: "September 2015 - January 2016"
 achievement: true
 ---
-{% include ytvideo.html id="vihaGfsV1GQ" %}
+{% include gallery.html prefix="/onslaughtPics/" %}
 ## Description
 {{ page.info }} 
 
 {% comment %}
+{% include ytvideo.html id="vihaGfsV1GQ" %}
 ## My Contributions
 * __Playstation 4__
   * During the development of the game I was responsible for making the game compatible with the PS4. This included making modifications to the UE4 source and extensive use of the PS4 development tools.
