@@ -213,6 +213,11 @@ pre {
   font-size: 0.9em;
 }
 
+#portfolioList .desc .projectSubtitle {
+  font-size: 0.9em;
+  line-height: 0.9em;
+}
+
 #portfolioList .thumb {
   display: block;
   float: left;

@@ -15,7 +15,7 @@
     <p class="projDate">
       Date: {{ project.projectDate }}
     </p>
-    <p>
+    <p class="projectSubtitle">
       {{ project.subtitle }}
     </p>
     <p>
