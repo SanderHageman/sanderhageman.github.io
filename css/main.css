@@ -140,7 +140,6 @@ pre {
 .galleryOverlay {
   position: relative;
 }
-
 .steamOverlayButton {
   z-index: 5;
   
@@ -153,7 +152,8 @@ pre {
   display: inline-block;
   cursor: pointer;
   
-  width: 160px;
+  width: 50px;
+  transition: width 0.2s;
   height: 47px;
   
   padding-bottom: 5px;
@@ -161,4 +161,8 @@ pre {
   background: url(http://store.akamai.steamstatic.com/public/shared/images/header/globalheader_logo.png) 0.2em 0.2em;
   background-color: #262626;
   background-repeat: no-repeat;
+}
+
+.steamOverlayButton:hover {
+  width: 160px;
 }
