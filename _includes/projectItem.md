@@ -12,8 +12,14 @@
     <p>
       <a href="{{ project.url }}">{{ project.title }}</a>
     </p>
+    <p class="projDate">
+      Date: {{ project.projectDate }}
+    </p>
     <p>
       {{ project.subtitle }}
+    </p>
+    <p>
+      {{ project.info }}
     </p>
   </div>
 </div>

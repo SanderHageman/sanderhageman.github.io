@@ -182,7 +182,7 @@ pre {
 }
 
 #portfolioList .portfolioItem {
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   display: block;
   box-sizing: border-box;
   overflow: hidden;
@@ -194,6 +194,7 @@ pre {
   width: 60%;
   position: relative;
   min-height: 1px;
+  padding-top: .3em;
   padding-left: 15px;
   padding-right: 15px;
   box-sizing: border-box;
@@ -204,15 +205,23 @@ pre {
   font-weight: bold;
 }
 
+#portfolioList .desc .projDate {
+  font-weight: bold;
+  line-height: 0.7em;
+  font-size: 0.9em;
+}
+
 #portfolioList .thumb {
   display: block;
   float: left;
   position: relative;
   
-  padding-left: 10px;
+  padding: 3px;
   max-width: 40%;
-  height: 216px;
+  min-height: 1px;
+  max-height: 222px;
   box-sizing: border-box;
+  background-color: black;
 }
 
 #portfolioList .thumbnail {
