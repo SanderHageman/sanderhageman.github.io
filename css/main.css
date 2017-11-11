@@ -135,9 +135,10 @@ pre {
 
 .steamEmbed {
   margin-top: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+  margin-bottom: 1em;
+  width: 100%;
+  max-width: 646px;
+  background-color: #262626;
 }
 
 .theme-bar.slider-wrapper{
