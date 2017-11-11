@@ -167,7 +167,7 @@ pre {
   
   padding-bottom: 5px;
   
-  background: url(http://store.akamai.steamstatic.com/public/shared/images/header/globalheader_logo.png) 0.2em 0.2em;
+  background: url(/assets/img/steamLogo.png) 0.2em 0.2em;
   background-color: #262626;
   background-repeat: no-repeat;
 }
