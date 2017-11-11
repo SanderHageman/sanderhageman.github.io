@@ -6,9 +6,9 @@ info: "In Project RIAS the player controls a scientist named Doctor Peters. Thro
 projectDate: "September 2014 - January 2015"
 achievement: true
 ---
-
-{% include ytvideo.html id="SlPOuWNxR3o" %}
+{% include gallery.html prefix="/riasPics/" %}
 
 ## Description
-
 In Project RIAS the player controls a scientist named Doctor Peters. Throughout the game the player has to find and master different 'powerups' that can be found to advance to the next level. The powerups differ from the ability to jump high up in the sky to running very fast.
+
+You can view the trailer [on youtube](https://www.youtube.com/watch?v=SlPOuWNxR3o)
