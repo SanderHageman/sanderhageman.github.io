@@ -5,13 +5,8 @@
 <div class="portfolioItem">
   <div class="thumb">
     <a href="{{ project.url }}">
-      <img class="thumbnail" src="https://vnunen.nl/assets/portfolio/_thumbnails/einar.jpg?v=2"/>
+      <img class="thumbnail" src="{{ thumbnail[0].path }}"/>
     </a>
-  
-  {% comment %}
-    <a class="thumbnail" href="{{ project.url }}" style="background-image: url('https://vnunen.nl/assets/portfolio/_thumbnails/einar.jpg?v=2');"></a>
-    <a class="thumbnail" href="{{ project.url }}" style="background-image: url('{{ thumbnail[0].path }}');"></a>
-  {% endcomment %}
   </div>
   <div class="desc">
     <p>

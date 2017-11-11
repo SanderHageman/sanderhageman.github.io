@@ -13,8 +13,13 @@ Game Programmer
 </div>
 
 ### Highlighted:
+<div id="portfolioList">
 {% assign achievements = site.projects | where: "achievement", true %} 
 {% for project in achievements %}
+{% include projectItem.md proj=project %}
+{% comment %}
 * [{{ project.title }}]({{ project.url }})
 	* {{ project.subtitle }}
+{% endcomment %}
 {% endfor %}
+</div> <!-- portfolioList -->

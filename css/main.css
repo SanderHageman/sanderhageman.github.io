@@ -128,7 +128,9 @@ pre {
 }
 
 .steamEmbed {
-  padding-left: 5%;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
   width: 90%;
 }
 
@@ -167,7 +169,8 @@ pre {
   width: 160px;
 }
 
-#portfolioList{ 
+#portfolioList {
+  margin-top: 1em;
   display: table;
   width: 100%;
 }
