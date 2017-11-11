@@ -39,7 +39,6 @@ Supports Thumbs: false
 	padding: 5px 0;
 	border-top: 1px solid #333;
 	background: #262626;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#565656', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
     opacity: 0.5;
     -webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
