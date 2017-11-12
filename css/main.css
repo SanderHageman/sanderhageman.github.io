@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
-@import url(//fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 body {
   margin: auto;
   width: 55%;
-  background-color: #F1F3F4;
-  font-family: 'Open Sans', sans-serif;
-  color: #373D3F;
+  background-color: #262626;
+  font-family: 'Montserrat', sans-serif;
+  color: #F1F3F4;
 }
 
 @media screen and (max-width: 1572px) {
@@ -28,8 +28,6 @@ body {
 
 nav ul,
 footer ul {
-  font-family: 'Open Sans', 'sans-serif';
-  padding: 0em;
   list-style: none;
   font-weight: bold;
 }
@@ -63,7 +61,6 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.2em;
   font-weight: bold;
 }
 
@@ -81,8 +78,8 @@ h3 {
 
 p {
   font-size: 1.0em;
-  line-height: 1.1em;
-  padding-bottom: 0.5em;
+  line-height: 1.3em;
+  padding: 0.2em;
 }
 
 .pageSubtitle {
@@ -98,11 +95,12 @@ nav {
   border-bottom: 1px solid #8B8C81;
   padding-bottom: .8em;
   padding-top: .8em;
+  margin-bottom: .8em;
 }
 
 footer {
-  margin-top: 1em;
-  padding-top: 1em;
+  margin-top: .8em;
+  padding-top: .8em;
   border-top: 1px solid #8B8C81;
   font-size: .8em;
 }
@@ -232,6 +230,12 @@ pre {
   background-color: black;
   
   margin-right: 5px;
+}
+
+.behindGallery {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
 }
 
 #portfolioList .thumbnail {
