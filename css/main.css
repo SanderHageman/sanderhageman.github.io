@@ -177,6 +177,8 @@ pre {
 }
 
 #behindGallery {
+  margin-top: 1em;
+  margin-bottom: 1em;
   display: block;
   z-index: 0;
   width: 100%;

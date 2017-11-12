@@ -10,7 +10,6 @@ Supports Thumbs: false
 
 .theme-bar.slider-wrapper {
     position: relative;
-    border: 1px solid #333;
     overflow: hidden;
 }
 .theme-bar .nivoSlider {
@@ -37,7 +36,7 @@ Supports Thumbs: false
     height: 30px;
 	text-align: center;
 	padding: 5px 0;
-	border-top: 1px solid #333;
+	border: 1px solid #333;
 	background: #262626;
     opacity: 0.5;
     -webkit-transition: all 200ms ease-in-out;
