@@ -241,10 +241,15 @@ pre {
   max-width: 40%;
   min-width: 384px;
   min-height: 1px;
-  max-height: 222px;
+  max-height: 216px;
   box-sizing: border-box;
   
-  margin-right: 5px;
+  margin: 5px;
+  
+  background: black;
+  box-shadow: 0 0 4px black;
+  
+  margin-right: 15px;
 }
 
 #portfolioList .thumbnail {
