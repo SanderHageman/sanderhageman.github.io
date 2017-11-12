@@ -1,5 +1,5 @@
 {% assign image_files = site.static_files | where: "image", true | where_exp: "myimage", "myimage.path contains include.prefix"%}
-<img class="behindGallery" src="{{ image_files[0].path }}"/>
+<img id="behindGallery" src="{{ image_files[0].path }}"/>
 <div class="slider-wrapper theme-bar">
 <div id="slider" class="nivoSlider">     
     {% for myimage in image_files %}
@@ -10,6 +10,7 @@
 
 <script type="text/javascript"> 
 $(window).on('load', function() {
+    $('#behindGallery').remove();
     $('#slider').nivoSlider({
         effect: 'fade',
         animSpeed: 600

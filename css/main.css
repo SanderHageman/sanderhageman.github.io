@@ -176,9 +176,8 @@ pre {
   width: 160px;
 }
 
-.behindGallery {
+#behindGallery {
   display: block;
-  position: absolute;
   z-index: 0;
   width: 100%;
 }
