@@ -12,11 +12,10 @@
 	{% include navigation.html %}
 	<h1>{{ page.title }}</h1>
 	<div class="pageSubtitle">
-		<p> {{ page.subtitle }} </p>
-		
 		{% if page.projectDate %}
-			<p> Date of project: {{ page.projectDate }} </p> 
+			<p class="projDate"> Date of project: {{ page.projectDate }} </p> 
 		{% endif %}
+		<p> {{ page.subtitle }} </p>
 	</div>
 
 	<div class="post">

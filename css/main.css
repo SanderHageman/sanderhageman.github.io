@@ -92,6 +92,12 @@ p {
   font-size: 0.9em;
 }
 
+.pageSubtitle .projDate {
+  font-weight: bold;
+  line-height: 0.7em;
+  font-size: 0.9em;
+}
+
 nav {
   border-bottom: 1px solid #8B8C81;
   padding-bottom: .8em;
@@ -210,19 +216,21 @@ pre {
 }
 
 #portfolioList .desc a {
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
 #portfolioList .desc .projDate {
+  margin-top: 0em;
+  margin-bottom: 0em;
   font-weight: bold;
-  line-height: 0.7em;
-  font-size: 0.9em;
+  font-size: 0.85em;
 }
 
 #portfolioList .desc .projectSubtitle {
-  font-size: 0.9em;
-  line-height: 0.9em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-size: 0.85em;
 }
 
 #portfolioList .thumb {
@@ -230,13 +238,11 @@ pre {
   float: left;
   position: relative;
   
-  padding: 3px;
   max-width: 40%;
   min-width: 384px;
   min-height: 1px;
   max-height: 222px;
   box-sizing: border-box;
-  background-color: black;
   
   margin-right: 5px;
 }
