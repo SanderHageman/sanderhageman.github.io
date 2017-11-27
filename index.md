@@ -4,7 +4,7 @@ title: Sander Hageman; Portfolio website
 ---
 # Sander Hageman 
 <p class="pageSubtitle">
-Game Programmer 
+Game Programmer
 </p>
 
 ### Released:
