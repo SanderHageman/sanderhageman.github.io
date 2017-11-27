@@ -5,7 +5,8 @@ title: Portfolio
 # {{ page.title }}
 
 <div id="portfolioList">
-{% for project in site.projects %}
+{% assign projectsSorted = site.projects | sort: 'date' %}
+{% for project in projectsSorted reversed %}
 {% include projectItem.md proj=project %}
 {% endfor %}
 </div>	

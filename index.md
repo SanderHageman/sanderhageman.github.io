@@ -14,12 +14,8 @@ Game Programmer
 
 ### Highlighted:
 <div id="portfolioList">
-{% assign achievements = site.projects | where: "achievement", true %} 
-{% for project in achievements %}
-{% include projectItem.md proj=project %}
-{% comment %}
-* [{{ project.title }}]({{ project.url }})
-	* {{ project.subtitle }}
-{% endcomment %}
+{% assign achievements = site.projects | where: "achievement", true | sort: 'date' %} 
+{% for project in achievements reversed %}
+	{% include projectItem.md proj=project %}
 {% endfor %}
 </div> <!-- portfolioList -->

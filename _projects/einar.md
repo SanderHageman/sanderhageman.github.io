@@ -3,6 +3,7 @@ layout: post
 title: "Einar"
 subtitle: "Third person hack and slash game made in Unreal Engine 4 for PS4."
 info: "Einar is a third person hack and slash game made in Unreal Engine 4. The game is based on Norse mythology and was developed for the PS4 by a team of more than 30 students. In the game the player has to use a multitude of 'god-powers' to deafeat his enemies; the draugr."
+date: 2016-09-01
 projectDate: "September 2016 - July 2017"
 achievement: true
 ---

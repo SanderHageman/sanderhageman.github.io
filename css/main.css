@@ -205,7 +205,7 @@ pre {
 #portfolioList .desc {
   display: block;
   float: left;
-  width: 55%;
+  width: 50%;
   position: relative;
   min-height: 1px;
   min-width: 384px;

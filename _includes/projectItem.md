@@ -2,6 +2,10 @@
 
 {% assign thumbnail = site.static_files | where: "image", true | where: "thumbnail", true | where_exp: "myimage", "myimage.name contains project.title" %}
 
+{% if thumbnail[0] == null %}
+  {% assign thumbnail = site.static_files | where: "image", true | where: "thumbnail", true %}
+{% endif %}
+
 <div class="portfolioItem">
   <div class="thumb">
     <a href="{{ project.url }}">
