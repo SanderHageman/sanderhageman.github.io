@@ -4,7 +4,7 @@ title: Sander Hageman; Portfolio website
 ---
 # Sander Hageman 
 <p class="pageSubtitle">
-Game Programmer
+Dutch game programming student following International Game Architecture and Design at the NHTV, Breda.
 </p>
 
 ### Released:

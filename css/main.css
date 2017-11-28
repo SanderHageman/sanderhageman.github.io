@@ -86,6 +86,8 @@ p {
 
 .pageSubtitle {
   margin-top: 0em;
+  min-width: 500px;
+  max-width: 650px;
 }
 
 .pageSubtitle p {

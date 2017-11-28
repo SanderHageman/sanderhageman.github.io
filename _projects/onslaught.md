@@ -15,6 +15,8 @@ The game has various pickups to help you; rapid fire, health and armour packs.
 Every time the player hits an enemy they build a rage meter. Once that is full they can
 unleash a series of precise blows which kill all enemies in a certain radius.
 
+The game was also shown at GDC 2016.
+
 {% comment %}
 {% include ytvideo.html id="vihaGfsV1GQ" %}
 ## My Contributions
