@@ -23,7 +23,7 @@
       {{ project.subtitle }}
     </p>
     <p>
-      {{ project.info }}
+      {% include contributionItemShortDesc.md proj = include.proj %}
     </p>
   </div>
 </div>

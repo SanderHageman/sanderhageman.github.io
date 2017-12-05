@@ -10,8 +10,8 @@ Currently I am a fourth year game programming student at the NHTV in Breda. I st
 
 ## Skills
 * __Programming Languages__
-  * C++
-  * C#
+  * C++ (3 Years)
+  * C# (2 Years)
 * __Engines__
   * Unreal Engine 4
   * Unity 5
@@ -28,5 +28,8 @@ Currently I am a fourth year game programming student at the NHTV in Breda. I st
   * Engine Programming
   * Virtual Reality
 * __Spoken Languages__
-  * Dutch
-  * English
+  * Dutch (Native)
+  * English (Near Native)
+* __Additional__
+  * Basics of HTML, CSS, and [Jekyll](https://jekyllrb.com/) by making this website
+  * source can be found on [GitHub](https://github.com/sander12101/sander12101.github.io) where it is also hosted
