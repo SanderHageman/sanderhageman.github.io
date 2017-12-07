@@ -282,6 +282,10 @@ pre {
   margin-right: 15px;
 }
 
+#portfolioList .thumb:hover {
+    box-shadow: 0 0 4px #107896;
+}
+
 #portfolioList .thumbnail {
   width: 384px;
   max-width: 100%;
