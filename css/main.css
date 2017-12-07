@@ -117,13 +117,14 @@ footer {
 }
 
 .portfolioItem .desc ul li {
-  font-size: 1em;
+  line-height: 1.2em;
+  font-size: 0.95em;
   padding-bottom: 0em;
   margin: 0em;
 }
 
 .portfolioItem .desc ul li li {
-  font-size: 0.95em;
+  font-size: 0.90em;
   padding-left: 0.5em;
 }
 
@@ -233,6 +234,7 @@ pre {
   padding-top: .3em;
   padding-right: 15px;
   box-sizing: border-box;
+  border-bottom: 1px solid #F1F3F4;
 }
 
 #portfolioList .desc p {
