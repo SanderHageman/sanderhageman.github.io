@@ -6,6 +6,7 @@ info: "Players have to shoot and slice through two levels of persistent and vary
 date: 2015-09-01
 projectDate: "September 2015 - January 2016"
 achievement: true
+role: Gameplay Programmer
 contributions:
   - name: Special Attack
     shortdesc: Added the Special Attack for full rage meter

@@ -8,23 +8,7 @@ body {
   color: #F1F3F4;
 }
 
-@media screen and (max-width: 1572px) {
-  body {
-    width: 70%;
-  }
-}
 
-@media screen and (max-width: 1080px) {
-  body {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  body {
-    width: 95%;
-  }
-}
 
 nav ul,
 footer ul {
@@ -45,17 +29,6 @@ nav ul {
 
 nav ul.navItems li.navTitle {
   float: right;
-}
-
-@media screen and (max-width: 780px) {
-    nav ul {
-      padding-top: 0.3em;
-      text-align: center;
-  }
-  
-   nav ul.navItems li.navTitle {
-    display: none;
-  }
 }
 
 a {
@@ -154,9 +127,26 @@ footer {
   padding-left: 0.5em;
 }
 
+.container .skillstable #small {
+  display: none;
+}
+
 .container td{
   line-height: 1.3em;
   padding-right: 1em;
+}
+
+.container .skillstable {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  margin-left: 0.5em;
+  width: 100%;
+}
+
+.container .skillstable td{
+  min-width: 150px;
+  padding-left: 0.5em;
+  border-left: 1px solid #F1F3F4;
 }
 
 .highlighter-rouge {
@@ -245,6 +235,10 @@ pre {
   box-sizing: border-box;
 }
 
+#portfolioList .desc p {
+  margin-bottom: 0.2em;
+}
+
 #portfolioList .desc a {
   font-size: 1.5em;
   font-weight: bold;
@@ -261,6 +255,10 @@ pre {
   margin-top: 0em;
   margin-bottom: 0em;
   font-size: 0.85em;
+}
+
+#portfolioList .desc .projectSubtitle strong {
+  font-weight: bold;
 }
 
 #portfolioList .thumb {
@@ -290,4 +288,40 @@ pre {
   width: 384px;
   max-width: 100%;
   max-height: 100%;
+}
+
+@media screen and (max-width: 1572px) {
+  body {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  body {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+    nav ul {
+      padding-top: 0.3em;
+      text-align: center;
+  }
+  
+   nav ul.navItems li.navTitle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  body {
+    width: 95%;
+  }
+  
+  .container .skillstable #big {
+    display: none;
+  }
+  .container .skillstable #small {
+    display: inherit;
+  }
 }

@@ -6,6 +6,7 @@ info: "In Project RIAS the player controls a scientist named Doctor Peters. Thro
 date: 2014-09-01
 projectDate: "September 2014 - January 2015"
 achievement: true
+role: Gameplay- and AI Programmer
 contributions:
   - name: Creation of 'Frederik' AI
     shortdesc: Creation of AI following the player

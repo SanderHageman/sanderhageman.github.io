@@ -6,6 +6,7 @@ info: "Einar is a third person hack and slash game made in Unreal Engine 4. The 
 date: 2016-09-01
 projectDate: "September 2016 - July 2017"
 achievement: true
+role: Engine- and PS4 Programmer
 contributions:
   - name: Playstation 4
     shortdesc: "Compatibility with the PS4"

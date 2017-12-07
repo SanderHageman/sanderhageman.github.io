@@ -5,6 +5,7 @@ subtitle: "3D platformer game made in Unity for PC."
 info: "Glorious Knakworst Simulator 2015 is a small game where the player is a knakworst that has fallen out of the pan. The player has to maneuver the knakworst through multiple obstacles to get back into the pan. This game was made during Global Game Jam 2015."
 date: 2015-01-01
 projectDate: "January 2015"
+role: Gameplay Programmer
 contributions:
   - name: Simulating Knakworst Physics
     shortdesc: Emulation of 'floppy' physics

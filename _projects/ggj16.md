@@ -5,6 +5,7 @@ subtitle: "VR exploration game made in Unity for the mobile phone."
 info: "A small VR game using a mobile phone, a controller and the Google Cardboard strapped to your head. The game is mostly walking using the controller and looking at ‘creations’ and once in a while interacting with them. This game was made during Global Game Jam 2016."
 date: 2016-01-01
 projectDate: "January 2016"
+role: Gameplay Programmer
 contributions:
   - name: Setup of dynamic room-system
     shortdesc: Streaming rooms/assets

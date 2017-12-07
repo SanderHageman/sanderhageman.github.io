@@ -5,6 +5,7 @@ subtitle: "C++ Game engine with Playstation 4 and PC compatibility."
 info: "Engine created by another student (Nicky van de Groep) which the team and I were contributing to. Purely C++ engine with ability to build the game for PS4 and PC using custom build tools."
 date: 2015-11-01
 projectDate: "November 2015 - February 2016"
+role: Engine Programmer
 contributions:
   - name: View Frustum Culling
     shortdesc: Simple softwarebased furstum culling

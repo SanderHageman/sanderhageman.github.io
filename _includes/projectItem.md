@@ -16,11 +16,16 @@
     <p>
       <a href="{{ project.url }}">{{ project.title }}</a>
     </p>
+    {% if project.role %}
+      <p class="projectSubtitle">
+        <strong>Role: </strong> {{ project.role }}
+      </p>
+    {% endif %}
     <p class="projDate">
       Date: {{ project.projectDate }}
     </p>
     <p class="projectSubtitle">
-      {{ project.subtitle }}
+      {{ project.subtitle }} 
     </p>
     <p>
       {% include contributionItemShortDesc.md proj = include.proj %}

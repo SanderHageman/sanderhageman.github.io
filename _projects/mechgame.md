@@ -5,6 +5,7 @@ subtitle: "VR Mech simulation game made in Unity for the PC."
 info: "In this game the player is the pilot of a ‘Mech’ fighting robot who has to protect themselves from the hordes of enemies that approach from all directions while also walking to beacons that have to be lit to complete the game."
 date: 2016-01-02
 projectDate: "January 2016 - April 2016"
+role: Hardware Implementation
 contributions:
   - name: Occulus Rift
     shortdesc: Adding support for Occulus Rift

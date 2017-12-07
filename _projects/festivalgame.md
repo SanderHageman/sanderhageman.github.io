@@ -5,6 +5,7 @@ subtitle: "Multiplayer partygame made in Unreal Engine 4 for PC."
 info: "An arcade style game where up to four players can fight each other in a multitude of ‘minigames’."
 date: 2016-04-01
 projectDate: "April 2016 - July 2016"
+role: Gameplay Programmer
 contributions:
   - name: Implementation of minigames
     shortdesc: "Implementation and integrations of two minigames"
