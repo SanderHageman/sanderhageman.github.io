@@ -25,7 +25,7 @@
       Date: {{ project.projectDate }}
     </p>
     <p class="projectSubtitle">
-      {{ project.subtitle }} 
+      <strong>About: </strong>{{ project.subtitle }} 
     </p>
     <p>
       {% include contributionItemShortDesc.md proj = include.proj %}
