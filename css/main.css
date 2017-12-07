@@ -228,7 +228,7 @@ pre {
   float: left;
   width: 50%;
   position: relative;
-  min-height: 1px;
+  min-height: 220px;
   min-width: 384px;
   padding-left: 5px;
   padding-top: .3em;
