@@ -23,7 +23,7 @@ footer ul li {
 }
 
 nav ul {
-  font-size: 1.3em;
+  font-size: 1.4em;
   padding-top: 0.3em;
 }
 
@@ -79,8 +79,11 @@ p {
   font-size: 0.9em;
 }
 
-.pageSubtitle .projDate {
+.pageSubtitle p strong{
   font-weight: bold;
+}
+
+.pageSubtitle .projDate {
   line-height: 0.7em;
   font-size: 0.9em;
 }
@@ -118,14 +121,15 @@ footer {
 
 .portfolioItem .desc ul li {
   line-height: 1.2em;
-  font-size: 0.95em;
-  padding-bottom: 0em;
-  margin: 0em;
+  font-size: 0.90em;
+  padding-bottom: 0.1em;
+  list-style: inside;
 }
 
 .portfolioItem .desc ul li li {
   font-size: 0.90em;
-  padding-left: 0.5em;
+  padding-left: 1.75em;
+  list-style: none;
 }
 
 .container .skillstable #small {
@@ -211,13 +215,13 @@ pre {
 }
 
 #portfolioList {
-  margin-top: 1em;
+  margin-top: .5em;
   display: table;
   width: 100%;
 }
 
 #portfolioList .portfolioItem {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   display: block;
   box-sizing: border-box;
   overflow: hidden;
@@ -230,8 +234,7 @@ pre {
   position: relative;
   min-height: 220px;
   min-width: 384px;
-  padding-left: 5px;
-  padding-top: .3em;
+  padding-left: 10px;
   padding-right: 15px;
   box-sizing: border-box;
   border-bottom: 1px solid #F1F3F4;
@@ -239,24 +242,18 @@ pre {
 
 #portfolioList .desc p {
   margin-bottom: 0.2em;
+  line-height: 1.4em;
 }
 
 #portfolioList .desc a {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: bold;
-}
-
-#portfolioList .desc .projDate {
-  margin-top: 0em;
-  margin-bottom: 0em;
-  font-weight: bold;
-  font-size: 0.85em;
 }
 
 #portfolioList .desc .projectSubtitle {
   margin-top: 0em;
   margin-bottom: 0em;
-  font-size: 0.85em;
+  font-size: 0.9em;
 }
 
 #portfolioList .desc .projectSubtitle strong {
@@ -278,8 +275,6 @@ pre {
   
   background: black;
   box-shadow: 0 0 4px black;
-  
-  margin-right: 15px;
 }
 
 #portfolioList .thumb:hover {

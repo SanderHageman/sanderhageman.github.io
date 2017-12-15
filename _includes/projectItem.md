@@ -16,18 +16,18 @@
     <p>
       <a href="{{ project.url }}">{{ project.title }}</a>
     </p>
-    {% if project.role %}
-      <p class="projectSubtitle">
+    <p class="projectSubtitle">
         <strong>Role: </strong> {{ project.role }}
-      </p>
-    {% endif %}
-    <p class="projDate">
-      Date: {{ project.projectDate }}
+    </p>
+    <p class="projectSubtitle">
+    <strong>Date: </strong> {{ project.projectDate }}
     </p>
     <p class="projectSubtitle">
       <strong>About: </strong>{{ project.subtitle }} 
     </p>
-    <p>
+    <p class="projectSubtitle">
+      <strong>What I did:</strong>
+      
       {% include contributionItemShortDesc.md proj = include.proj %}
     </p>
   </div>

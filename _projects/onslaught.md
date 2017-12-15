@@ -22,7 +22,7 @@ contributions:
 ## Description
 {{ page.info }} The game has various pickups to help you; rapid fire, health and armour packs. Every time the player hits an enemy they build a rage meter. Once that is full they can unleash a series of precise blows which kill all enemies in a certain radius.
 
-You can view the trailer [on youtube](https://www.youtube.com/watch?v=vihaGfsV1GQ).
+You can view the trailer <a href="https://www.youtube.com/watch?v=vihaGfsV1GQ" target="_blank">on youtube</a>.
 
 The game was also shown at GDC 2016.
 

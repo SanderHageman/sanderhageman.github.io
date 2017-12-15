@@ -18,6 +18,6 @@ contributions:
 ## Description
 {{ page.info }}
 
-The game and source can be found on the [Global Game Jam website](https://globalgamejam.org/2015/games/glorious-knakworst-simulator)
+The game and source can be found on the <a href="https://globalgamejam.org/2015/games/glorious-knakworst-simulator" target="_blank">Global Game Jam website</a>.
 
 {% include contributionItem.md proj=page %}

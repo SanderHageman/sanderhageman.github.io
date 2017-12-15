@@ -15,7 +15,7 @@ contributions:
     desc: Implementation of the Razor Hydra. This meant using the Razor Hydra API and integrating it into the game. At the time of development the Hydras had already been discontinued which made development a little harder.
   - name: Inverse Kinematics
     shortdesc: Implementation of IK
-    desc: Because the player was free to move the hands of the Mech using the Razor Hydras I had to implement IK to make the arms of the mech react to the movements of the player as good as possible. This can be viewed [on youtube](https://www.youtube.com/watch?v=A-OfPg-s0TE).
+    desc: Because the player was free to move the hands of the Mech using the Razor Hydras I had to implement IK to make the arms of the mech react to the movements of the player as good as possible. This can be viewed <a href="https://www.youtube.com/watch?v=A-OfPg-s0TE" target="_blank">on youtube</a>.
 ---
 {% include ytvideo.html id="Gth0KCI_A5g" %}
 

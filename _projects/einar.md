@@ -28,6 +28,6 @@ contributions:
 ## Description
 {{ page.info }}
 
-You can view the trailer [on youtube](https://www.youtube.com/watch?v=cAe5JFwOv6A)
+You can view the trailer <a href="https://www.youtube.com/watch?v=cAe5JFwOv6A" target="_blank">on youtube</a>
 
 {% include contributionItem.md proj=page %}
