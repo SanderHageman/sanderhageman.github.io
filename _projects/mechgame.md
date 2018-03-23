@@ -7,9 +7,9 @@ date: 2016-01-02
 projectDate: "January 2016 - April 2016"
 role: Hardware Implementation
 contributions:
-  - name: Occulus Rift
-    shortdesc: Adding support for Occulus Rift
-    desc: Adding support for virtual reality in the game. This included seting it up to work with the Occulus Rift and making sure it worked correctly in the game.
+  - name: Oculus Rift
+    shortdesc: Adding support for Oculus Rift
+    desc: Adding support for virtual reality in the game. This included seting it up to work with the Oculus Rift and making sure it worked correctly in the game.
   - name: Razor Hydra
     shortdesc: Adding support for Razor Hydra
     desc: Implementation of the Razor Hydra. This meant using the Razor Hydra API and integrating it into the game. At the time of development the Hydras had already been discontinued which made development a little harder.
@@ -20,6 +20,6 @@ contributions:
 {% include ytvideo.html id="Gth0KCI_A5g" %}
 
 ## Description
-{{ page.info }} The player controls the game using three peripherals: the Razor Hydra, an occulus rift, and a mechanical set of paddles. The Hydra controls the arms and weapons of the Mech and the pedals are used for the movement of the legs.
+{{ page.info }} The player controls the game using three peripherals: the Razor Hydra, an oculus rift, and a mechanical set of paddles. The Hydra controls the arms and weapons of the Mech and the pedals are used for the movement of the legs.
 
 {% include contributionItem.md proj=page %} 
