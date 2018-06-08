@@ -13,7 +13,7 @@ contributions:
     desc: "During the development of the game I was responsible for making the game compatible with the PS4, I had to use the PS4 development tools for performance profiling and graphical debugging."
   - name: Unreal Engine 4
     shortdesc: "Editing UE4 source for PS4 support"
-    desc: "Because UE4 does not offer compatibility for the PS4 out of the box I had to edit the UE4 source to make it work. I also enhanced small parts of the UE4 source to make creating builds for the PS4 easier."
+    desc: "Although Unreal Engine 4 offers Playstation 4 support out of the box, it's not available out of the box. I had to rebuild the complete engine using the PS4 binaries and public UE4 source. I also enhanced small parts of the UE4 source to make creating builds for the PS4 easier."
   - name: Prototyping
     shortdesc: "Rapid prototyping"
     desc: "At the start of the project I was involved with rapidly prototyping a multitude of mechanics."
