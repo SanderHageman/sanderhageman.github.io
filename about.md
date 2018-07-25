@@ -1,20 +1,14 @@
 ---
 layout: default
 title: About
-skills:
-  - name: Programming Languages
-    values:
-      - C++ (3 Years)
-      - C# (2 Years)
-  - name: Engines
-    values:
-      - Unreal Engine 4
-      - Unity 4, 5
 ---
 # {{ page.title }}
 
 Hello there, I am Sander Hageman, <br>
-Currently I am a fourth year game programming student at the NHTV in Breda. I started programming when I was about 10 years old using Game Maker. In 2014 I went to the NHTV to study International Game Architecture and Design to learn more about making games. At the NHTV I learned about AAA game development and how to work in teams in varying sizes up to 30 people.
+Currently I am a fourth-year game programming student at the NHTV (Breda University) in Breda. I started programming when I was about 10 years old using Game Maker. In 2014 I went to the NHTV to study International Game Architecture and Design to learn more about making games. At the NHTV I learned about AAA game development and how to work in teams in varying sizes up to 30 people.
+
+
+In my free time I like to play Pathfinder with my friends, play video games, listen to music and tinker with my linux server. I also love to participate in game jams like the Ludum Dare and the Global Game Jam and have developed lots of different games over the years.
 
 {% capture programminglanguages-raw %}
 * __Programming Languages__
@@ -39,7 +33,6 @@ Currently I am a fourth year game programming student at the NHTV in Breda. I st
 * __Version Control__
   * Perforce
   * SVN
-  * Git
 {% endcapture %}
   
 {% capture programmingexperience-raw %}
@@ -52,7 +45,7 @@ Currently I am a fourth year game programming student at the NHTV in Breda. I st
 {% capture spokenlanguages-raw %}
 * __Spoken Languages__
   * Dutch (Native)
-  * English (Near Native)
+  * English (C2 / CPE)
 {% endcapture %}
 
 {% assign programminglanguages = programminglanguages-raw | markdownify %}
@@ -98,6 +91,6 @@ Currently I am a fourth year game programming student at the NHTV in Breda. I st
   
 </table>
 
-* __Additional__
+* __Additional Skills__
   * Basics of HTML, CSS, and [Jekyll](https://jekyllrb.com/) by making this website
   * source can be found on [GitHub](https://github.com/sander12101/sander12101.github.io) where it is also hosted

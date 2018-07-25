@@ -5,7 +5,7 @@ title: Sander Hageman; Portfolio website
 # Sander Hageman 
 Game Programmer
 <p class="pageSubtitle">
-Dutch game programming student following International Game Architecture and Design course at the NHTV, Breda.
+Dutch game programming student following International Game Architecture and Design course at the NHTV (Breda University), Breda.
 </p>
 
 ### Highlights:

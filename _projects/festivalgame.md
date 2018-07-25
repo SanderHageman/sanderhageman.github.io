@@ -9,7 +9,7 @@ role: Gameplay Programmer
 contributions:
   - name: Implementation of minigames
     shortdesc: "Implementation and integrations of two minigames"
-    desc: "I had to implement two minigames; 'Sumo' and 'Kampai' that I had to integrate into the 'overworld'/bigger game. This meant I had to adapt to the control and character system in place."
+    desc: "I had the opportunity to implement two minigames; 'Sumo' and 'Kampai' that I had to integrate into the 'overworld'/bigger game. This meant I had to adapt to the control and character system in place."
   - name: Creation of builds
     shortdesc: Creating builds for the game
     desc: Creating the builds needed to test the game in Unreal Engine 4 for both single- and multiplayer.
