@@ -92,5 +92,5 @@ In my free time I like to play Pathfinder with my friends, play video games, lis
 </table>
 
 * __Additional Skills__
-  * Basics of HTML, CSS, Git, and [Jekyll](https://jekyllrb.com/) by making this
-  * website. The source can be found on [GitHub](https://github.com/sander12101/sander12101.github.io) where it is also hosted
+  * Basics of HTML, CSS, Git, and [Jekyll](https://jekyllrb.com/) by making this wwebsite.
+  * The source can be found on [GitHub](https://github.com/sander12101/sander12101.github.io) where it is also hosted.
