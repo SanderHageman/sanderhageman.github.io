@@ -4,12 +4,16 @@ title: About
 ---
 # {{ page.title }}
 
-Hello there, I am Sander Hageman,
-Currently employed at Paladin Studios and creating amazing games. Before joining this company I was a student at Breda University of Applied Sciences (formerly known as NHTV) in Breda.
+Hello there, I am Sander Hageman.
+
+Currently employed at Paladin Studios and creating amazing games.
+
+Before joining this company I was a student at Breda University of Applied Sciences (formerly known as NHTV) in Breda.
 My first hands-on experience with creating games was when I was introduced to GameMaker at the age of 10, and I haven't stopped since. In 2014 I joined the ranks at the NHTV to study International Game Architecture and Design (IGAD) to learn more about making games. There I learned how to develop quality games at a high standard with large teams working closely together.
 
 
 In my free time I like to play Pathfinder with my friends, play video games, listen to music and tinker with my linux server. I also love to participate in game jams like the Ludum Dare and the Global Game Jam and have developed lots of different games over the years.
+
 
 {% capture programminglanguages-raw %}
 * __Programming Languages__
