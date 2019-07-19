@@ -4,33 +4,35 @@ title: About
 ---
 # {{ page.title }}
 
-Hello there, I am Sander Hageman, <br>
-Currently I am a fourth-year game programming student at the NHTV (Breda University) in Breda. I started programming when I was about 10 years old using Game Maker. In 2014 I went to the NHTV to study International Game Architecture and Design to learn more about making games. At the NHTV I learned about AAA game development and how to work in teams in varying sizes up to 30 people.
+Hello there, I am Sander Hageman,
+Currently employed at Paladin Studios and creating amazing games. Before joining this company I was a student at Breda University of Applied Sciences (formerly known as NHTV) in Breda.
+My first hands-on experience with creating games was when I was introduced to GameMaker at the age of 10, and I haven't stopped since. In 2014 I joined the ranks at the NHTV to study International Game Architecture and Design (IGAD) to learn more about making games. There I learned how to develop quality games at a high standard with large teams working closely together.
 
 
 In my free time I like to play Pathfinder with my friends, play video games, listen to music and tinker with my linux server. I also love to participate in game jams like the Ludum Dare and the Global Game Jam and have developed lots of different games over the years.
 
 {% capture programminglanguages-raw %}
 * __Programming Languages__
+  * C# (4 Years)
   * C++ (3 Years)
-  * C# (2 Years)
 {% endcapture %}
 
 {% capture engines-raw %}
 * __Engines__
+  * Unity (4, 5, 2017, -18)
   * Unreal Engine 4
-  * Unity 4, 5
 {% endcapture %}
 
 {% capture platforms-raw %}
-* __Platforms__
+* __Familiar development platforms__
   * PC
+  * Android, iOS
   * PS4
-  * Android
 {% endcapture %}
 
 {% capture versioncontrol-raw %}
 * __Version Control__
+  * Git
   * Perforce
   * SVN
 {% endcapture %}
@@ -38,7 +40,8 @@ In my free time I like to play Pathfinder with my friends, play video games, lis
 {% capture programmingexperience-raw %}
 * __Programming Experience__
   * Gameplay Programming
-  * Engine Programming
+  * Engine(/graphics) Programming
+  * AI Programming (NodeCanvas)
   * Virtual Reality
 {% endcapture %}
   
@@ -92,5 +95,5 @@ In my free time I like to play Pathfinder with my friends, play video games, lis
 </table>
 
 * __Additional Skills__
-  * Basics of HTML, CSS, Git, and [Jekyll](https://jekyllrb.com/) by making this website.
+  * Basics of HTML, CSS, Markdown and [Jekyll](https://jekyllrb.com/) by making this website.
   * The source can be found on [GitHub](https://github.com/sander12101/sander12101.github.io) where it is also hosted.
