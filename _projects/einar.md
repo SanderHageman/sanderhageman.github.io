@@ -22,9 +22,6 @@ contributions:
   {% include gallery.html prefix="/einarPics/" %}
   <a href="http://store.steampowered.com/app/674400/Einar/" class="steamOverlayButton"></a>
 </div>
-<div class="steamEmbed">
-<iframe src="http://store.steampowered.com/widget/674400/" frameborder="0" width="100%" height="190"></iframe>
-</div>
 ## Description
 {{ page.info }}
 
